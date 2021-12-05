@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="280dp"
+            android:src="@drawable/st8"/>
+
+        <LinearLayout
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="듄 시리즈(총6권)"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="2017/04/20"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="프랭크 허버트 (지은이)\n김승욱 (옮긴이)"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="책 소개"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="역사상 가장 많이 팔린 SF이자 독자들이 뽑은 역대 최고의 SF인 프랭크 허버트의 대작 『듄』이 신장판 전집으로 출간되었다. 2001년 첫 번역본이 출간된 이후 20년 만에 재출간된 신장판은, 기존의 18권 반양장본을 원서와 동일한 6권으로 묶은 양장본으로서, 김승욱 역자가 6개월여의 원본 대조 작업을 통해 번역을 새롭게 손봤다.\n\n
+
+『듄』은 지금까지 2000만 부 이상의 판매고를 올리며 전 세계에서 가장 많이 판매된 SF로 알려져 있으며, 「컨택트」, 「블레이드 러너 2049」의 감독인 드니 빌뇌브에 의해 대작 할리우드 영화로 올 10월 공개될 예정으로, 예고편 공개만으로 원작 소설이 베스트셀러에 오르는 등 전 세계적으로 높은 주목을 받고 있는 기대작이다.\n\n
+
+우주 시대 인류 역사가 담긴 『듄』 전집은 사막 행성인 '아라키스'를 배경으로, 철학, 인종, 종교, 정치, 문화, 역사 등을 모두 담아낸 대하 SF이다. 총 6부로 구성되어 있으며, 1부는 폴 아트레이데스를 주인공으로 하여 아트레이데스 가문이 황제와 하코넨 가문의 정략적인 함정에 빠져 몰락했다가 폴에 의해 복권되는 과정을 한국 출판본 기준으로 근 1000쪽에 이르는 장대한 분량으로 집필하였다.\n\n
+
+2부는 전 우주의 왕좌에 올라선 폴과 그의 지배에 억눌렸던 다른 정치 세력들의 새로운 음모를 그리고, 3부는 폴의 자녀인 레토와 가니마를 주인공으로 하여, 아트레이데스 가문의 권력 투쟁 과정을, 4부에선 수천 년 동안 독재자로 군림하게 된 레토 아트레이데스와 저항 세력의 이야기를, 5부와 6부에선 황제 사후, 베네 게세리트와 명예의 어머니 사이에 벌어지는 치열한 싸움을 다루는 등 수천 년의 우주 역사를 상세히 담아낸다."
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="카테고리 분류"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="eBook &gt; 소설/시/희곡 &gt; 과학소설 &gt; 외국\n
+eBook &gt; 소설/시/희곡 &gt; 세계의 문학 &gt; 미국문학\n
+eBook &gt; 소설/시/희곡 &gt; 영미소설\n
+eBook &gt; 소설/시/희곡 &gt; 테마문학 &gt; 영화소설"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="목차"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+1권 듄\n\n
+
+듄 7\n
+부록 1 . 듄의 생태계 893\n
+부록 2 . 듄의 종교 907\n
+부록 3 . 베네 게세리트의 의도와 목적에 대한 보고서 920\n
+부록 4 . 귀족 연감 924\n
+아라키스의 지도 926\n
+제국의 용어들 927\n\n
+
+2권 듄의 메시아\n\n
+
+듄의 메시아 7\n
+에필로그 374\n\n
+
+3권 듄의 아이들\n\n
+
+듄의 아이들 7\n\n
+
+4권 듄의 신황제\n\n
+
+듄의 신황제 7\n\n
+
+5권 듄의 이단자들\n\n
+
+『듄』을 쓰고 있을 때 7\n
+듄의 이단자들 11\n
+
+6권 듄의 신전\n\n
+
+듄의 신전 7"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

@@ -1,8 +1,9 @@
 package com.example.bookinfo;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Toast;
+import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -12,9 +13,23 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-    }
 
-    public void onButton1Clicked(View v) {
-        Toast.makeText(getApplicationContext(), "도서를 찾을 수 없습니다.", Toast.LENGTH_LONG).show();
+        Button button = (Button) findViewById(R.id.ButtonBest);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), bestListActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button button2 = (Button) findViewById(R.id.ButtonSteady);
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), steadyListActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

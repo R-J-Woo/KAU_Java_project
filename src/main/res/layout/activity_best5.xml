@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="280dp"
+            android:src="@drawable/best5"/>
+
+        <LinearLayout
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="지적 대화를 위한 넓고 얕은 지식: 제로 편"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="2019/12/24"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="채사장 (지은이)"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="책 소개"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="인문 분야 국내 작가로는 드물게 200만 부라는 더블 밀리언셀러를 기록한 작가, 출간하는 책마다 화제를 불러일으키며 베스트셀러를 달성한 작가, 강연마다 청중이 꽉 들어차고 끝난 지 2년 넘은 팟캐스트가 아직도 상위권을 달리며 많은 사람이 기다려온 작가. 채사장이 5년 만에 《지적 대화를 위한 넓고 얕은 지식》 신작으로 돌아왔다. 작가 특유의 유머와 필력으로 어려운 것을 쉽게 설명하고 지루한 것을 재밌게 정리하는 기술은 여전하다. 다만 이전 시리즈에서 그의 현실 감각이 빛을 발했다면, 이번 책에서는 오랜 기간의 사유와 통찰이 유감없이 발휘된다.\n\n
+
+현대인은 여러 블랙미러를 통해 하루에도 수많은 지식과 접한다. 그런데 이런 파편적인 지식들은 대부분 금세 휘발되고, 삶에 자리 잡지 못한다. 왜일까? 그것은 이 지식들을 이해하기 위한 지식의 배경이 약하기 때문이다. 지식의 종류는 많겠지만, 어떤 지식을 알려면 꼭 필요한 선(先)지식이 있다. 이것은 나와 세계를 이해하게 하고, 개인의 관점과 세계관을 형성해주며, 일상에서 파생되는 지식들을 주체적으로 이해하게 한다. 이번 책 [제로] 편은 당신이 진정한 지적 대화를 하고 싶다면 제일 먼저 접해야 하는 가장 근본 지식을 담았다. 이 책이야말로 지식의 궁극적인 목표를 이루게 할 것이다. 나와 삶을 ‘나아지게’ 하는 바로 그 목표 말이다."
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="카테고리 분류"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="인문 &gt; 인문학일반 &gt; 지식과학문"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="목차"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. 우주 : 세계의 탄생\n
+우주의 탄생 - 왜 인간은 우주를 이해하려 하는가\n
+시간 이전의 시간 - 다중 우주와 평행 우주\n
+우주 너머의 우주 - 우주가 여러 개라는 몇 가지 모델\n
+차원에 대하여 - 0차원에 대한 상상\n
+다중 우주론이 해결하는 문제 - 우주가 하필 지금의 모습인 이유\n
+인간 중심 원리 - 우주의 존재 이유와 인간\n\n
+
+2. 인류 : 인간과 문명\n
+우리 우주의 시작 - 어떻게 빅뱅 이론을 증명했을까\n
+빅뱅 이후의 역사 - 0초부터 138억 년까지\n
+우리 우주의 크기 - 너무도 큰 공간 속 너무도 작은 존재\n
+지구의 탄생 - 충돌과 동반자 그리고 지질 시대\n
+생명의 탄생 - 생명은 어떻게 시작되었나\n
+진화에 대하여 - 진화론에 대한 오해와 진실\n
+인류의 탄생 - 각지로 퍼져나간 현생인류\n
+문명의 탄생 - 세계 4대 문명과 인간의 삶\n
+길가메시 서사시 - 인간에 대한 가장 오래된 보고서\n\n
+
+3. 베다 : 우주와 자아\n
+위대한 스승들 - 왜 그들은 축의 시대에 등장했는가\n
+역사적 배경 - 우리가 모르는 세계의 절반\n
+베다의 신화 - 신에 대한 세 가지 구분\n
+일원론의 시작 - 고대 인도인이 찾은 궁극의 지혜\n
+범아일여의 현대적 의미 - 자아, 세계 그리고 관계\n
+사회적 영향 - 내면을 탐구하는 자들의 시대\n
+우파니샤드의 문제 - 모든 종교가 갖게 되는 고민\n
+바가바드 기타 - 세속과 탈속의 화해\n
+힌두교의 세계관 - 인도 정신의 종합\n\n
+
+4. 도가 : 도리와 덕성\n
+역사적 배경 - 신화와 역사의 경계는 어디인가\n
+노자의 생애와 사상 - 탈속의 철학자\n
+도덕경의 내용 - 우주의 질서와 내면의 질서\n
+노자와 공자의 만남 - 두 가지 삶의 태도\n
+공자의 생애와 사상 - 세속의 철학자\n
+논어의 내용 - 인간 사이의 실천 덕목\n
+공자 이후 - 유학의 발전\n
+공자와 노자의 차이 - 혼란을 멈추는 방법\n
+외래 종교의 유입 - 불교의 등장\n
+신유학의 세계관 - 일원론으로의 귀결\n\n
+
+5. 불교 : 자아의 실체\n
+역사적 배경 - 불교는 어떻게 아시아에 영향을 미쳤나\n
+싯다르타의 생애와 사상 - 출가와 깨달음\n
+붓다의 가르침 - 고통의 원인과 해결\n
+불교와 베다의 차이 - 고정된 자아는 있는가, 없는가\n
+붓다 이후의 불교 - 계승과 분열\n
+불교 외연의 확장 - 소승불교와 대승불교\n
+대승불교의 두 사상 - 중도와 의식\n
+자아에 대한 두 가지 입장 - 진아와 무아\n\n
+
+6. 철학 : 분열된 세계\n
+이원론의 세계 - 왜 서양 철학은 한계에 봉착했는가\n
+역사적 배경 - 유럽의 정신, 그리스\n
+아테네와 스파르타 - 협력과 대립, 두 번의 전쟁\n
+소크라테스의 생애와 사상 - 사유하는 인간\n
+플라톤과 이데아론 - 이원론의 시작\n
+동양의 세계관과 서양의 세계관 - 인류라는 거인의 우뇌와 좌뇌\n
+관념론의 의미 - 눈앞의 세계는 진짜인가\n
+칸트의 생애와 사상 - 외부 세계를 내면 세계로\n
+철학사적 배경 - 인식론의 고민과 칸트의 답변\n
+칸트 이후의 현상학 - 이원론에서 일원론으로\n
+세계의 실체 - 상상하기 어려운 세계\n\n
+
+7. 기독교 : 교리와 신비\n
+서양 사상의 두 토대 - 어떻게 서로 다른 사상이 공존했는가\n
+역사적 배경 - 다시 등장하는 그리스인\n
+로마 제국 - 역사상 가장 영향력 있는 나라\n
+로마 제국 변방의 유대 지역 - 유대인의 파란만장한 역사\n
+예수의 생애와 사상 - 출가와 죽음 그리고 부활\n
+예수의 두 가지 의미 - 역사로서의 예수, 초월로서의 예수\n
+기독교의 탄생 - 세계 종교가 된 이유\n
+그리스 철학과 기독교의 융합 - 세계관의 공유\n
+마이스터 에크하르트 - 일원론의 가능성"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

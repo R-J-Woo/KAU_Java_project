@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="280dp"
+            android:src="@drawable/st7"/>
+
+        <LinearLayout
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="완전한 행복"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="2021/07/01"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="정유정 (지은이)"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="책 소개"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="발표하는 작품마다 독자들의 열광적인 지지를 받으며 한국문학의 대체불가한 작가로 자리매김한 정유정의 신작. 500여 쪽을 꽉 채운 압도적인 서사와 적재적소를 타격하는 속도감 있는 문장, 치밀하고 정교하게 쌓아올린 플롯과 독자의 눈에 작열하는 생생한 묘사로 정유정만의 스타일을 가감 없이 보여주는 한편, 더 완숙해진 서스펜스와 인간의 심연에 대한 밀도 높은 질문으로 가득 찬 수작이다.\n\n
+
+《완전한 행복》은 버스도 다니지 않는 버려진 시골집에서 늪에 사는 오리들을 먹이기 위해 오리 먹이를 만드는 한 여자의 뒷모습에서 시작된다. 그녀와 딸, 그리고 그 집을 찾은 한 남자의 얼굴을 비춘다. 얼굴을 맞대고 웃고 있지만 그들이 추구하는 서로 다른 행복은 서서히 불협화음을 만들어낸다. 이 기묘한 불협화음은 늪에서 들려오는 괴기한 오리 소리와 공명하며 불안의 그림자를 드리운다. 그들은 각자 행복을 위해 노력한다. 그러나 노력할수록 더 깊이 빠져드는 늪처럼, 그림자는 점점 더 깊은 어둠으로 가족을 이끈다.\n\n
+
+소설은 ‘인간은 행복을 추구한다’는 일견 당연해 보이는 명제에서 출발하면서도, ‘나’의 행복이 타인의 행복과 부딪치는 순간 발생하는 잡음에 주목한다. 전작들에서 악을 체화한 인물을 그리기까지 악의 본질에 대한 이해를 끌고 나간 정유정은 이번 소설에서는 악인의 내면이 아니라 그가 타인에게 드리우는 검은 그림자에 초점을 맞춘다.\n\n
+
+자기애의 늪에 빠진 나르시시스트가 자신의 행복을 위해 타인의 삶을 휘두르기 시작할 때 발현되는 일상의 악, 행복한 순간을 지속시키기 위해 그것에 방해가 되는 것들을 가차 없이 제거해나가는 방식의 노력이 어떤 결말을 향해 달려가는지를 보여주는 《완전한 행복》은 무해하고 무결한 행복에 경도되어 있는 사회에 묵직한 문학적 질문을 던진다.
+"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="카테고리 분류"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="소설/시/희곡 &gt; 한국소설 &gt; 2000년대 이후"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="목차"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1부 / 그녀의 오리들\n
+1장 009\n
+2장 052\n
+3장 126\n\n
+
+2부 / 그녀는 누구일까\n
+4장 201\n
+5장 233\n
+6장 289\n\n
+
+3부 / 완전한 행복\n
+7장 337\n
+8장 389\n
+9장 444\n\n
+
+에필로그 508\n\n
+
+작가의 말 520"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

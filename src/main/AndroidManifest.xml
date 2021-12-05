@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BookInfo">
         <activity
+            android:name=".steadyListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bestListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".std4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".MenuActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

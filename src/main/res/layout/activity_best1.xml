@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="280dp"
+            android:src="@drawable/best1"/>
+
+        <LinearLayout
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="더 해빙"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="2020/03/01"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="이서윤, 홍주연 (지은이)"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="책 소개"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="부와 행운을 만나는 출발점, 마법의 감정 Having! 국내 최초로 미국에서 선(先)출간되어 세계가 먼저 찾아 읽은 『더 해빙(The Having)』. 세계적인 부자들이 성공 비결로 꼽았다는 ‘운’. 행운은 타고나는 것일까? 소수에게만 주어지는 것일까? 물려받은 재산도, 특출난 재능도 없는 사람도 부자가 될 수 있을까? 대기업 창업주와 주요 경영인, 대형 투자자가 절체절명의 순간 찾는 사람, 이서윤. 그들은 그녀에게 자문을 구한 뒤 일생일대의 기회를 잡는 인생의 퀀텀 점프를 이루어냈다.\n\n일곱 살에 운명학에 입문해 동서양의 고전을 마스터하고 오랜 기간 한국의 경제계 리더들을 자문해온 저자 이서윤은 수만 건의 사례를 분석하고 성찰한 끝에 밝혀낸 ‘부와 행운의 비밀’을 이 책에 집대성했다. 자신의 감정을 활용해 쉽고 빠르게 풍요로운 삶을 누릴 수 있도록 돕는 이 책은, 자신을 괴롭히는 불안감에서 벗어나 진정으로 원하는 인생을 살 수 있도록 이끌어준다. 두 사람의 대화를 통해 쉽게 전달되는 Having의 가르침을 단계별로 따라가다 보면 현실적이고 지속가능한 삶의 변화를 일으키도록 돕는다."
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="카테고리 분류"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="자기계발 &gt; 성공/처세 &gt; 자기관리/처세"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="목차"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1부. 부를 끌어당기는 힘, Having\n1. 부와 행운을 가져다주는 운명\n
+2. 구루를 찾아서\n
+3. 재회\n
+4. Having\n
+5. Having의 비밀\n
+6. 누구나 부자가 될 수 있다\n
+7. 불안에서 벗어나는 방법\n
+8. 낭비와 과시\n
+구루 스토리_구루의 길\n\n
+2부. 돈을 끌어오는 사람 vs 돈을 밀어내는 사람\n
+9. 베로나의 햇살\n
+10. 진짜 부자\n
+11. 가짜 부자\n
+12. 돈을 끌어당기는 힘\n
+13. 귀인\n
+구루 스토리_고등학생 구루가 되다\n\n
+3부. 감정에 답이 있다\n
+14. Having을 시작하다\n
+15. 소비할 때의 마음\n
+16. 새로운 키워드\n
+17. 감정의 힘\n
+18. Having 신호등\n
+구루 스토리_비바람이 치다\n\n
+4부. 불안에서 해방되려면\n
+19. 빨간불\n
+20. 진정한 편안함\n
+21. 부의 근력을 키워라\n
+22. 아무리 애써도 여전히 불안하다면\n
+23. 간절히 원하면 이루어지지 않는다\n
+24. Having 노트\n
+구루 스토리_날개를 펼치다\n\n
+5부. 행운의 법칙\n
+25. 인생의 변화\n
+26. 행운이 찾아오다\n
+27. 완벽한 휴가\n
+28. 운의 법칙\n
+29. 운의 흐름을 탄 사람들\n
+30. 무의식은 알고 있다\n
+31. ‘있음’을 입력하라\n
+32. 상생\n
+구루 스토리_행운의 여신\n\n
+6부. 행운의 길을 걷다\n
+33. 대나무 숲\n
+34. 악연에 빠지는 이유\n
+35. 토성 리턴\n
+36. 고정관념을 깨라\n
+37. 부자가 되기 어려운 세상\n
+38. 매트릭스를 탈출하라\n
+39. 진정한 나 자신의 목소리를 듣다\n
+40. 새로운 길이 나타나다"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>
