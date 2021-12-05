@@ -59,6 +59,7 @@
                     android:layout_margin="10dp"/>
 
                 <Button
+                    android:id="@+id/ButtonBest1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="상세정보"
@@ -106,6 +107,7 @@
                     android:layout_margin="10dp"/>
 
                 <Button
+                    android:id="@+id/ButtonBest2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="상세정보"
@@ -153,6 +155,7 @@
                     android:layout_margin="10dp"/>
 
                 <Button
+                    android:id="@+id/ButtonBest3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="상세정보"
@@ -200,6 +203,7 @@
                     android:layout_margin="10dp"/>
 
                 <Button
+                    android:id="@+id/ButtonBest4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="상세정보"
@@ -247,6 +251,7 @@
                     android:layout_margin="10dp"/>
 
                 <Button
+                    android:id="@+id/ButtonBest5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="상세정보"
@@ -294,6 +299,7 @@
                     android:layout_margin="10dp"/>
 
                 <Button
+                    android:id="@+id/ButtonBest6"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="상세정보"
@@ -341,6 +347,7 @@
                     android:layout_margin="10dp"/>
 
                 <Button
+                    android:id="@+id/ButtonBest7"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="상세정보"
@@ -388,6 +395,7 @@
                     android:layout_margin="10dp"/>
 
                 <Button
+                    android:id="@+id/ButtonBest8"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="상세정보"
@@ -435,6 +443,7 @@
                     android:layout_margin="10dp"/>
 
                 <Button
+                    android:id="@+id/ButtonBest9"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="상세정보"
@@ -482,6 +491,7 @@
                     android:layout_margin="10dp"/>
 
                 <Button
+                    android:id="@+id/ButtonBest10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="상세정보"

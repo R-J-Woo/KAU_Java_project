@@ -15,7 +15,7 @@ public class steadyListActivity extends AppCompatActivity {
         setContentView(R.layout.activity_steady_list);
 
         Button button1 = (Button) findViewById(R.id.ButtonStd1);
-        button1.setOnClickListener(new View.OnClickListener() { // 스테디셀러 4위
+        button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), std1Activity.class);

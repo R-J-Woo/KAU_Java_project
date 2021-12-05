@@ -2,7 +2,28 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/base"
     android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="130dp"
+        android:text="책의 정보는 이곳에서!"
+        android:textColor="#FFC107"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="BookInfo"
+        android:textColor="#FFC107"
+        android:textSize="40dp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/ButtonBest"
