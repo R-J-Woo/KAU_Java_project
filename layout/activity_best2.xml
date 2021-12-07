@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="280dp"
+            android:src="@drawable/best2"/>
+
+        <LinearLayout
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="돈의 속성(150쇄 기념 에디션)"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="2020/06/25"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="김승호 (지은이)"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="책 소개"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="맨손에서 만들어낸 종잣돈으로 돈 버는 방법을 알려준다. 부모에게 받은 유산은 커녕, 30대 후반까지 낡은 자동차에 그날 판매할 과일을 싣고 다니던 어느 가난한 이민 가장이 이룬 진짜 부에 대한 모든 방법이 담겼다. 종잣돈 천만 원을 만들고 그 돈을 1억 원, 10억 원, 100억 원, 수천억 원이 될 때까지 돈을 관리하며 터득한 ‘돈’이 가진 속성을 정리한 안내서다. ‘진짜 부자’가 된 실제 인물이 말해주는 ‘진짜 돈’만들기에 대한 책이다.\n\n
+저자는 돈의 특성을 매우 특이하게 정의했는데 바로, 인격체라고 지칭한 것이다. 돈을 너무 사랑해서 집 안에만 가둬 놓으면 기회만 있으면 나가버리려고 할 것이고 다른 돈에게 주인이 구두쇠니 오지 마라 할 것이다. 자신을 존중해주지 않는 사람을 부자가 되게 하는 데 협조도 하지 않는다. 가치 있는 곳과 좋은 일에 쓰인 돈은 그 대우에 감동해 다시 다른 돈을 데리고 주인을 찾을 것이고 술집이나 도박에 자신을 사용하면 비참한 마음에 등을 돌리는 게 돈이다.\n\n
+
+옛말에 ‘고기를 주기보다 고기를 낚는 법을 주라’ 했다. 우리는 모두 각기 다른 환경에 놓여 있다. 지적 수준이 다르며 경제적 상황 역시 다르다. 그러니 누군가에게 이득이 된 방법이라고 나에게 이득이 될 수는 없다. 우리는 이 책 『돈의 속성』을 통해 돈을 만들고 지키고 기르는 한 명의 농부가 되는 방법을 배워야 할 것이다."
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="카테고리 분류"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="경제/경영 &gt; 재테크/금융 &gt; 재테크 &gt; 부자되는법"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="목차"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="추천사
+프롤로그\n\n
+
+돈은 인격체다\n
+나는 나보다 더 훌륭한 경영자에게 투자한다\n
+복리의 비밀\n
+일정하게 들어오는 돈의 힘\n
+돈은 중력의 힘을 가졌다\n
+리스크가 클 때가 리스크가 가장 작을 때다\n
+남의 돈을 대하는 태도가 내 돈을 대하는 태도다\n
+100억을 상속받았는데 절대 잃지 말라는 유언이 붙었다면\n
+빨리 부자가 되려면, 빨리 부자가 되려 하면 안 된다\n
+경제 전문가는 경기를 정말 예측할 수 있나?\n
+삼성전자 주식을 삼성증권에 가서 사는 사람\n
+다른 이를 부르는 호칭에 따라 내게 오는 운이 바뀐다\n
+반복되는 운은 실력이고 반복되는 실패는 습관이다\n
+뉴스를 통해 사실과 투자 정보를 구분하는 법\n
+돈마다 시간은 다르게 흐른다\n
+달걀을 한 바구니에 담지 않았는데 왜 모두 깨질까?\n
+부자가 되는 세 가지 방법\n
+돈을 모으지 못하는 이유\n
+자신이 금융 문맹인지 알아보는 법\n
+주식으로 수익을 내는 사람들의 세 가지 특징\n
+얼마나 벌어야 정말 부자인가?\n
+내가 재산을 지키기 위해 매일 하는 일\n
+가난은 생각보다 훨씬 더 잔인하다\n
+금융 공황 발생에 따른 세 가지 인간상\n
+내가 청년으로 다시 돌아가 부자가 되려 한다면\n
+지혜는 기초학문으로부터 시작된다\n
+부자가 되기 위해 우선 당장 할 수 있는 일 한 가지\n
+앞으로 주식이 오를 것 같습니까?\n
+현재 임대료를 내는 사람들의 숨은 가치\n
+부동산에 투자하는 것이 좋을까? 주식이 좋을까?\n
+나의 독립기념일은 언제인가?\n
+돈을 다루는 네 가지 능력\n
+이런 곳에 나는 투자 안 한다\n
+보험은 저축이 아니다\n
+예쁜 쓰레기\n
+경제에 대한 해석은 자신의 정치적 신념에서 벗어나 있어야 한다\n
+마중물과 종잣돈 1억 만들기의 다섯 가지 규칙\n
+좋은 부채, 나쁜 부채\n
+세상의 권위에 항상 의심을 품어라\n
+좋은 돈이 찾아오게 하는 일곱 가지 비법\n
+직장인들이 부자가 되는 두 가지 방법\n
+감독(자산배분)이 중요한가? 선수(포지션)가 중요한가?\n
+은행에서 흥정을 한다고요?\n
+떨어지는 칼을 잡을 수 있는 사람\n
+재무제표에 능통한 회계사는 투자를 정말 잘할까?\n
+김승호의 투자 원칙과 기준\n
+자식을 부자로 만드는 방법\n
+만약 삼성전자 주식을 아직도 가지고 있었더라면\n
+국제적 수준의 행동 에티켓과 세계화 과정\n
+당신의 출구전략은 무엇인가?\n
+모든 비즈니스는 결국 부동산과 금융을 만난다\n
+똑똑한 사람들이 오히려 음모에 빠진다\n
+사기를 당하지 않는 법\n
+투자의 승자 자격을 갖췄는지 알 수 있는 열한 가지 질문\n
+두량 족난 복팔분\n
+부의 속성\n
+흙수저가 금수저를 이기는 법\n
+당신 사업의 퍼(PER)는 얼마인가?\n
+큰 부자는 하늘이 낸다\n
+창업을 꿈꾸는 젊은이는 작은 회사로 가라\n
+능구(能久)와 공부(工夫)\n
+아직도 할 사업은 끝도 없이 많다\n
+사업가는 스스로에게 자유를 줄 수 있는 유일한 직업\n
+돈마다 품성이 다르다\n
+가족 안에서 가장 부자가 되었을 때 부모와 형제에 대한 행동요령\n
+실패할 권리\n
+책이 부자로 만들어줄까?\n
+신은 왜 공평하지 않을까?\n
+항상 투자만 하는 송 사장과 항상 화가 나 있는 그의 아내\n
+동업을 어떻게 생각하세요?\n
+길을 모르겠으면 큰길로 가라\n
+쿼터 법칙\n
+기도로는 부자가 될 수 없다\n
+재산을 모을 때는 농부가 되고 투자할 때는 어부가 돼라\n
+돈을 모으는 네 가지 습관\n
+
+에필로그"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

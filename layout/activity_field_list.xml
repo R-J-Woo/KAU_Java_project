@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ButtonPoet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/base"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="BookInfo"
+        android:textColor="#FFC107"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="분야별 베스트"
+        android:textColor="#FFC107"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/ButtonNovel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="30dp"
+        android:padding="20dp"
+        android:text="소설"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/ButtonPoetry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:padding="20dp"
+        android:text="시"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/ButtonEssay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:padding="20dp"
+        android:text="에세이"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/ButtonGenre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:padding="20dp"
+        android:text="장르소설"
+        android:textSize="20dp" />
+
+</LinearLayout>

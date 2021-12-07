@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="280dp"
+            android:src="@drawable/poet5"/>
+
+        <LinearLayout
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="제주에서 혼자 살고 술은 약해요"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="2020/04/10"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="이원하"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="책 소개"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="혜성처럼 등장한 독보적 재능, 독특한 이력의 시인\n
+이원하 첫 시집
+\n\n
+2018년 한국일보 신춘문예로 등단한 이원하 시인의 첫 시집을 펴낸다. 당시 “거두절미하고 읽게 만드는 직진성의 시였다. 노래처럼 흐를 줄 아는 시였다. 특유의 리듬감으로 춤을 추게도 하는 시였다. 도통 눈치란 걸 볼 줄 모르는 천진 속의 시였다. 근육질의 단문으로, 할말은 다 하고 보는 시였다. 무엇보다 ‘내’가 있는 시였다. 시라는 고정관념을 발로 차는 시였다. 시라는 그 어떤 강박 속에 도통 웅크려본 적이 없는 시였다. 어쨌거나 읽는 이들을 환히 웃게 하는 시였다”는 평가와 함께 심사위원 만장일치로 당선되었다. 그의 시는 ‘제주에서 혼자 살고 술은 약해요’라는 독특한 감각의 제목을 달고 있었고, 당선 직후 문단과 평단, 출판 관계자와 새로운 시를 기다린 독자들의 입에 제법 오르내리며 화제가 되었다. 국어국문과나 문예창작과를 나오지 않았고, 미용고를 졸업해 미용실 스태프로 일하고, 영화 &lt;아가씨&gt;에 뒷모습이 살짝 등장하는 보조 연기자로 살아온 이력도 한몫했다. 이십대 중반, 늦다면 늦은 때에 문학을 만나 시를 쓰기 위해 제주도로 내려가 산 것과 신춘문예에서 익숙하게 보아오던 형식을 완전히 벗어난 개성 역시. 그로부터 2년이 지났다. 이제 총 54편의 시를 아우르는 첫 시집의 제목으로 독자들을 새로이 마주한다, 『제주에서 혼자 살고 술은 약해요』.
+\n\n
+시집을 펼치면 차례 페이지부터 신선하다. 4부로 나뉜 구성에 각각의 부제목이 ‘새’ ‘싹’ ‘눈’ ‘물’이다. 한 음절로 된 단어들인 동시에 ‘새싹’과 ‘눈물’로 읽어도, ‘새싹눈물’로 읽어도 각각 새로운 의미가 발생하는 짤막한 부제목 아래 다소 긴 편인 시의 제목들. ‘여전히 슬픈 날이야, 오죽하면 신발에 달팽이가 붙을까’ ‘나는 바다가 채가기만을 기다리는 사람 같다’ ‘풀밭에 서면 마치 내게 밑줄이 그어진 것 같죠’ ‘털어내도 변하지 않는 것이 있어요’ ‘나를 받아줄 품은 내 품뿐이라 울기에 시시해요’ ‘서운한 감정은 잠시라도 졸거나 쉬지 않네요’ 등등의 제목은 글인 동시에 말 같고, 혼잣말인 듯 누군가에게 보내는 편지인 듯하다."
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="카테고리 분류"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="시/에세이 &gt; 한국시 &gt; 현대시"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="목차"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="시인의 말 005\n\n
+
+1부 새\n
+제주에서 혼자 살고 술은 약해요/ 여전히 슬픈 날이야, 오죽하면 신발에 달팽이가 붙을까/ 약속된 꽃이 오기만을 기다리면서 묻는 말들/ 나는 바다가 채가기만을 기다리는 사람 같다/ 풀밭에 서면 마치 내게 밑줄이 그어진 것 같죠/ 첫 눈물 흘렸던 날부터 눈으로 생각해요/ 참고 있느라 물도 들지 못하고 웃고만 있다/ 싹부터 시작한 집이어야 살다가 멍도 들겠지요/ 섬은 우산도 없이 내리는 별을 맞고/ 마음에 없는 말을 찾으려고 허리까지 다녀왔다/ 바다를 통해 말을 전하면 거품만 전해지겠지/ 동경은 편지조차 할 줄 모르고 036
+\n\n
+2부 싹\n
+초록과 풀잎 같은 것들은 항상 곁에 있는데 보이질 않더라고요 그날부터였을 거예요/ 해의 동선/ 달이 찌는 소리가 나를 부르는 소리였다니/ 털어내도 변하지 않는 것이 있어요/ 환기를 시킬수록 쌓이는 것들에 대하여/ 빛이 밝아서 빛이라면 내 표정은 빛이겠다/ 필 꽃 핀 꽃 진 꽃/ 빈 그릇에 물을 받을수록 거울이 넓어지고 있어요/ 가만히 있다보니 순해져만 가네요/ 코스모스가 회복을 위해 손을 터는 가을/ 말보단 시간이 많았던 허수아비/ 누워서 등으로 섬을 만지는 시간/ 깊은 맛이라는 개념은 얕은 물에만 있는 것 같아요/ 내가 나를 기다리다 내가 오면 다시 나를 보낼 것 같아
+\n\n
+3부 눈\n
+선명해진 확신이 노래도 부를 수 있대요/ 눈 감으면 나방이 찾아오는 시간에 눈을 떴다/ 장미가 우릴 비껴갔어도 여백이 많아서 우린 어쩌면/ 투명한 외투를 걸쳤다면 할일을 했겠죠/ 나를 받아줄 품은 내 품뿐이라 울기에 시시해요/ 그게 아니라 취향, 취향/ 아무리 기다려도 겨울만 온다/ 바다는 아래로 깊고 나는 뒤로 깊다/ 귤의 이름은 귤, 바다의 이름은 물/ 나비라서 다행이에요/ 마시면 마실수록 꺼내지는 건/ 하나 남은 바다에 부는 바람/ 산수국이 나비인 줄 알고 따라갔어요/ 잘 산 물건이 있나 가방을 열어봤어요/ 내가 담근 술은 얼마나 독할까요/ 하고 싶은 말 지우면 이런 말들만 남겠죠
+\n\n
+4부 물\n
+눈물이 구부러지면 나도 구부러져요/ 서운한 감정은 잠시라도 졸거나 쉬지 않네요/ 눈동자 하나 없는 섬을 걸었다/ 하늘에 갇힌 하늘/ 저녁 먼저 먹을까, 계절 먼저 고를까/ 그늘을 벗어나도 그게 비밀이라면/ 입에 담지 못한 손은 꿈에나 담아야 해요/ 물잔에 고인 물/ 조개가 눈을 뜨는 이유 하나 더/ 나무는 흔들릴 때마다 투명해진다/ 노을 말고, 노을 같은 거/ 꿈결에 기초를 둔 물결은 나를 대신해서 웃는다
+\n\n
+해설│자연에서 자유까지-웃는 사람 이원하\n
+│신형철(문학평론가)"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

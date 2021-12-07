@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="280dp"
+            android:src="@drawable/e1"/>
+
+        <LinearLayout
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1cm 다이빙"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="2020/01/21"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="태수, 문정"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="책 소개"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="우리 사회에는 행복해지기 위해 필요한 것이 참 많습니다. 좋은 대학, 이름난 회사, 괜찮은 연봉, 안정적인 가정. 끝이 아닙니다. 내 자식까지 이어지는 좋은 대학, 이름난 회사, 괜찮은 연봉... 이거... 몇 명이나 가능할까요?\n
+재산이라곤 대출금 밖에 없는 서른 살 예비 신랑과, 2년간 집에만 있던 스물여섯 프리랜서. 우리도 견디다 보면 올 줄 알았습니다. 그래서 다짐했죠. '이것만 끝나면...' 하지만 결국 돌아온 것이 지쳐버린 몸과, 우울증이었을 때 결심했습니다.?아무것도 안 끝나도 좋으니, 나 좀 웃고 살자.
+우리가 찾고 싶은 건 이런 겁니다.?\n
+현실에서 딱 1cm 벗어나는 행복.?최소한의 노력과 최소한의 위험으로 웃으며 살 수 있는 그런 방법. 프로젝트 1cm 다이빙 함께 하시겠습니까?"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="카테고리 분류"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="시/에세이 &gt; 나라별 에세이 &gt; 한국에세이"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="목차"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="프롤로그 : 1cm 정도는 괜찮잖아\n
+\n
+1. 제자리 뛰기 : 예열이 필요해\n
+\n
+스마트폰보다 재미있는 거 있어요?\n
+30초 안에 기분이 좋아져야 한다면\n
+언제든 할 수 있다면 지금 해도 된다는 뜻이지\n
+이거, 해본 적 없을 걸?\n
+나만 아는 풍경\n
+우리가 돈이 없지 추억이 없냐\n
+더 불행해질 것 같아 하지 못한 이야기\n
+\n
+2. 손목 털기 : 가벼워지는 연습\n
+\n
+가위, 바위, 보 말고 하나 빼기\n
+그리고 아무도 몰랐다고 한다\n
+제가 영화 추천해도 되나요?\n
+내 멋대로 자소서\n
+나쁜 상사 대회를 엽니다\n
+의식주 다음으로 중요한 것\n
+정말로 삭제하시겠습니까?\n
+이제는 말할 수 있다. 나의 비밀 이야기\n
+주말 일지\n
+\n
+3. 숨 크게 들이 마시기 : 뛰기 전, 마지막 준비운동\n
+\n
+꿈이 꼭 있어야 할까\n
+내 방이 필요해\n
+잠깐, 배고프다\n
+소확행은 너무 커서 최소확행\n
+나도 호모 아카데미쿠스\n
+마감기한이 죽기 전까지 라면\n
+퇴사는 답이 아니야\n
+아직 다 못한 이야기\n
+내가 찾은 1cm 다이빙\n
+\n
+에필로그 : 1cm Diving"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

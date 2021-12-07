@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="280dp"
+            android:src="@drawable/novel6"/>
+
+        <LinearLayout
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="우리가 빛의 속도로 갈 수 없다면"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="2019/06/24"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="김초엽"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="책 소개"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="바이오센서를 만드는 과학도에서 이제는 소설을 쓰는 작가 김초엽. 어디에도 없는 그러나 어딘가에 있을 것 같은 상상의 세계를 특유의 분위기로 손에 잡힐 듯 그려내며, 정상과 비정상, 성공과 실패, 주류와 비주류의 경계를 끊임없이 질문해온 그의 첫 소설집 『우리가 빛의 속도로 갈 수 없다면』.
+\n\n
+《관내분실》로 2017년 제2회 한국과학문학상 중단편부문 대상을, 《우리가 빛의 속도로 갈 수 없다면》으로 가작을 동시에 받으며 작품 활동을 시작한 저자의 이야기를 만나볼 수 있다. 신인소설가로서는 드물게 등단 일 년여 만에 《현대문학》, 《문학3》, 《에피》 등 여러 지면을 통해 발표한 작품으로 펴낸 첫 소설집으로, 근사한 세계를 그려내는 상상력에서 한 발 더 나아가, 우리를 돌아보게 하는 질문을 던지는 일곱 편의 작품이 수록되었다."
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="카테고리 분류"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="소설 &gt; 한국소설 &gt; SF/과학소설\n소설 &gt; 장르소설 &gt; SF/과학소설"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="목차"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="순례자들은 왜 돌아오지 않는가 007\n
+스펙트럼 057\n
+공생 가설 097\n
+우리가 빛의 속도로 갈 수 없다면 145\n
+감정의 물성 189\n
+관내분실 219\n
+나의 우주 영웅에 관하여 273\n\n
+
+해설 | 인아영(문학평론가)\n
+아름다운 존재들의 제자리를 찾아서 321\n
+작가의 말 337"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

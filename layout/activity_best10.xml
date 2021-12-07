@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="280dp"
+            android:src="@drawable/best10"/>
+
+        <LinearLayout
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="내가 원하는 것을 나도 모를 때"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="2020/01/08"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="전승환 (지은이)"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="책 소개"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="출간 5개월 만에 15만 독자로부터 뜨겁게 사랑을 받은 〈책 읽어주는 남자〉 전승환 작가의 첫 번째 인문 에세이 『내가 원하는 것을 나도 모를 때』가 여름을 맞아 보기만 해도 온몸이 시원해지는 여름 특별판으로 새 옷을 갈아입었다. 실제 읽은 독자들부터 “책장을 넘기다 그만 눈물이 쏟아졌습니다”, “바로 이런 위로가 필요했습니다”, “이제야 잃어버린 나를 찾은 것 같습니다”와 같은 찬사를 받은 이 책은, 정신없이 바쁜 일상을 살아가느라 지치고 무기력해진 나머지 자신이 정말 원하는 게 뭔지도 모른 채 살아가는 많은 이들에게 진솔한 공감과 따스한 위로를 건넨다.\n\n
+
+이해인 수녀, 정재찬 교수, 배우 소유진 등이 추천하고 SNS상에서 독자들의 끊임없는 추천 릴레이가 이어진 『내가 원하는 것을 나도 모를 때』는 출간 이후 주요 서점 최장기간 인문 베스트셀러 1위 자리를 지키며 2020년 상반기에 가장 많이 사랑받은 책이 되었다. 아울러 일본, 대만, 베트남, 태국, 인도네시아 등 8개국에 동시 수출이 진행되며, 전 세계에 출판 한류의 힘을 전하고 있다. 『내가 원하는 것을 나도 모를 때』에는 인문 고전, 철학, 역사, 시, 소설, 에세이 등 다양한 분야의 도서에서 가려 뽑은 130여 편의 ‘인생의 문장들’이 가득하다. 바쁘게 살아오느라 나의 감정, 시간, 관계, 세계를 방치했다면, 그 문장들을 통해 자신의 속마음과 마주해보자. 그렇게 스스로 돌아볼 때, 우리는 상처받은 마음을 치유하고 사랑하는 마음을 되찾을 수 있다. 만약 자신이 원하는 것을 모르겠다면, 지치고 무기력한 삶을 변화시키고 싶다면, 이 책을 통해 마음속 깊은 곳까지 시원하게 만들어줄 나만의 ‘인생의 문장’을 찾아보자."
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="카테고리 분류"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="인문 &gt; 인문학일반 &gt; 인문교양"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="목차"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="들어가는 말 묵묵히 내 곁에 있어주는 것\n
+
+1부 누군가 안부를 물어주는 것 같아서\n
+_나의 감정을 살피다\n\n
+
+마음의 밑바닥에서 슬픈 소리가 들리면 / 잠들지 못하는 밤 / 내가 원하는 것을 나도 모를 때 / 상처를 치유하는 적절한 거리 / 외로움의 여러 모양 / 후회가 남지 않는 사랑 / 미움과 분노는 나의 힘 / 위대한 집착 / 차나 한잔할까요? / 당신의 이야기에 취하는 밤
+\n\n
+2부 힘내라는 말이 위로가 되지 않을 때\n
+_나의 시간을 살피다\n\n
+
+자꾸 마음 쓰이는 계절 / 목적 없이 걷고 싶은 하루 / 첫눈처럼 사랑해주세요 / 당신의 사소한 일상이 궁금해서 / 왜냐고요? 청춘이니까 / 어른의 시간이 시작되어도 / 힘내지 않아도 괜찮아 / 일상의 시간을 벗어나야 진짜 여행 / 지금 당장 모험을 떠날 시간 / 삶은 기억이다 / 살아 있는 관계, 살아 있는 추억 / 문득 떠오르는 얼굴 / 깊은 밤, 우리를 찾아오는 것들 / 지금 여기의 시간
+\n\n
+3부 내 곁에 둘 사람, 거리를 둘 사람\n
+_나의 관계를 살피다\n\n
+
+돌아보면 언제나 혼자였지만 / 착한 아이 노릇은 그만 / 엄마의 이름 / 우리 같은 방향으로 함께 걸어요 / 더 많이 사랑하는 당신이 강한 사람 / 모든 인연에 끝이 있다 하더라도 / 매일 조금씩 곁으로 다가와 줘 / 오해를 두려워하지 않을 때
+\n\n
+4부 온전히 나답게 살아가기 위해\n
+_나의 세계를 살피다\n\n
+
+당당하고 자유롭게 / 살아간다는 건 이별을 마주한다는 것 / 불가능한 꿈을 꿀 용기 / 한 사람이 내 삶의 의미가 될 수 있을까 / 낭만의 바다를 헤엄치는 법 / 그리고 인생은 아름다워진다 / 너와 나, 우리는 이 세계에서 함께
+\n\n
+나오는 말 인생의 책들이 아니라 인생의 문장들인 까닭\n
+이 책에 수록된 ‘인생의 문장들’의 출처\n
+추천사"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="280dp"
+            android:src="@drawable/poet8"/>
+
+        <LinearLayout
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="어쩌면 별들이 너의 슬픔을 가져갈지도 몰라"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="2015/06/04"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="김용택"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="책 소개"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="‘섬진강 시인’이란 별칭으로 잘 알려진 시인 김용택이 여러 문인의 시를 직접 읽고 따라 써보며 ‘독자들도 꼭 한번은 따라 써보길 바라는 마음’으로 101편의 시를 엄선해 수록한 책이다. 책의 왼쪽 페이지에는 시의 원문을, 오른쪽 페이지에는 감성적인 디자인의 여백을 마련해 독자가 따라 쓰기 편하고 휴대 또한 간편하도록 구성해 새로운 형식인 감성치유 ‘라이팅북’에 누구나 어렵지 않게 접근할 수 있도록 만들었다.
+\n\n
+김소월, 이육사, 윤동주, 백석 같이 교과서에서 접해 친근한 작가의 작품들은 물론 김혜순, 황지우, 천양희, 이성복 등 한 시대를 풍미한 문인의 시, 프리드리히 니체, 요한 괴테 등 외국 작가의 메시지까지 다양하게 수록한 이 책은 김용택 시인의 시 10편을 함께 소개했다. 총 111편의 시가 전달하는 사랑과 기쁨, 일상과 자연, 용기와 희망의 언어를 단순이 읽는 데에서 그치지 않고, 독자 스스로가 직접 따라 써봄으로써 그 가치가 더욱 빛날 것이다."
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="카테고리 분류"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="시/에세이 &gt; 한국시 &gt; 현대시"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="목차"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="작가의 말\n
+감성치유 라이팅북 가이드\n\n
+
+
+1.\n
+잎이 필 때 사랑했네\n
+바람 불 때 사랑했네\n
+물들 때 사랑했네\n
+-그저 달콤하지만은 않은 사랑의 시간\n\n
+
+사랑의 물리학 ㆍ 김인육\n
+백 년 ㆍ 이병률\n
+와락 ㆍ 정끝별\n
+초승달 ㆍ 김경미\n
+지평선 ㆍ 막스 자콥\n
+눈 ㆍ 김소월\n
+나와 나타샤와 흰 당나귀 ㆍ 백석\n
+꽃이 예쁜가요, 제가 예쁜가요 ㆍ 이규보\n
+낮은 목소리 ㆍ 장석남\n
+사랑의 증세 ㆍ 로버트 그레이브스\n
+경쾌한 노래 ㆍ 폴 엘뤼아르\n
+농담 ㆍ 이문재\n
+아침 식사 ㆍ 자크 프레베르\n
+남해 금산 ㆍ 이성복\n
+선운사에서 ㆍ 최영미\n
+그리움 ㆍ 신달자\n
+소세양 판서를 보내며 ㆍ 황진이\n
+당신의 눈물 ㆍ 김혜순\n
+봄은 고양이로다 ㆍ 이장희\n
+미라보 다리 ㆍ 기욤아폴리네르\n
+푸른 밤 ㆍ 나희덕\n
+세월이 가면 ㆍ 박인환\n
+그대는 나의 전부입니다 ㆍ 파블로 네루다\n
+수양버들 공원에 내려가 ㆍ 윌리엄 예이츠\n
+사랑법 ㆍ 강은교\n
+여름밤의 풍경 ㆍ 노자영\n
+한 그리움이 다른 그리움에게 ㆍ 정희성\n
+노래 ㆍ 이시카와타쿠보쿠\n
+내가 생각하는 것은 ㆍ 백석\n
+민들레의 영토 ㆍ 이해인\n\n
+
+
+2.\n
+바람의 노래를 들을 것이다\n
+울고 왔다 웃고 갔을 인생과\n
+웃고 왔다 울고 갔을 인생들을\n
+-일상의 소리에 귀 기울이면 들리는 생의 복잡미묘한 감정\n\n
+
+조용한 일 ㆍ 김사인\n
+혜화역4번 출구 ㆍ 이상국\n
+기차표 운동화 ㆍ 안현미\n
+가을 ㆍ 송찬호\n
+아내의 이름은 천리향 ㆍ 손택수\n
+나의 꿈 ㆍ 한용운\n
+그날 ㆍ 곽효환\n
+자화상 ㆍ 윤동주\n
+거울 ㆍ 이상\n
+질투는 나의 힘 ㆍ 기형도\n
+가을, 그리고 겨울 ㆍ 최하림\n
+밤 ㆍ 정지용\n
+수선화에게 ㆍ 정호승\n
+청포도 ㆍ 이육사\n
+기도실 ㆍ 강현덕\n
+사평역에서 ㆍ 곽재구\n
+긍정적인 밥 ㆍ 함민복\n
+바짝 붙어서다 ㆍ 김사인\n
+팬케이크를 반죽해요 ㆍ 크리스티나 로제티\n
+시월 ㆍ 황동규\n
+저녁눈 ㆍ 박용래\n
+나는 첫눈을 밟고 거닌다 ㆍ 세르게이예세닌\n
+웃은 죄 ㆍ 김동환\n
+누군가 창문을 조용히 두드리다 간 밤 ㆍ 김경주\n
+가정식 백반 ㆍ 윤제림\n
+행복 ㆍ 김종삼\n
+윤사월 ㆍ 박목월\n
+다름 아니라 ㆍ 윌리엄 윌리엄스\n
+고독하다는 것은 ㆍ 조병화\n
+달같이 ㆍ 윤동주\n
+별 ㆍ 이병기\n\n
+
+
+3.\n
+바람이 나를 가져가리라\n
+햇살이 나를 나누어 가리라\n
+봄비가 나를 데리고 가리라\n
+-지치고 힘든 순간, 희망과 용기의 메시지\n\n
+
+사막 ㆍ 오르텅스 블루\n
+담배 한 대 길이의 시간 속을 ㆍ 최승자\n
+흔들리며 피는 꽃 ㆍ 도종환\n
+나의 노래는 ㆍ 신석정\n
+내가 만약 촛불을 밝히지 않는다면 ㆍ 나짐히크메트\n
+찬란 ㆍ 이병률\n
+용기 ㆍ 요한 괴테\n
+강물 ㆍ 김영랑\n
+도보순례 ㆍ 이문재\n
+걸어보지 못한 길 ㆍ 로버트 프로스트\n
+낙화 ㆍ 조지훈\n
+언덕 꼭대기에 서서 소리치지 말라 ㆍ 울라브하우게\n
+꿈 ㆍ 랭스턴 휴즈\n
+젊은 시인에게 주는 충고 ㆍ 라이너릴케\n
+서시 ㆍ 이정록\n
+석류 ㆍ 폴 발레리\n
+갈대 ㆍ 신경림\n
+강촌에서 ㆍ 문태준\n
+봄밤 ㆍ 김수영\n
+그 사람에게 ㆍ 신동엽\n
+해답 ㆍ 거트루드 스타인\n
+하지 않고 남겨둔 일 ㆍ 헨리 롱펠로\n
+비망록 ㆍ 문정희\n
+구부러진 길 ㆍ 이준관\n
+값진 삶을 살고 싶다면 ㆍ 프리드리히 니체\n
+어쩌면 ㆍ 댄 조지\n
+지금 알고 있는 걸 그때도 알았더라면 ㆍ 킴벌리커버거\n
+산유화 ㆍ 김소월\n
+먼 행성 ㆍ 오민석\n
+방문객 ㆍ 정현종\n\n
+
+
+4.\n
+발걸음을 멈추고\n
+숨을 멈추고\n
+눈을 감고\n
+- 독자가 사랑하는 김용택의 시 10\n\n
+
+달이 떴다고 전화를 주시다니요\n
+참 좋은 당신\n
+나무\n
+안녕, 피츠버그 그리고 책\n
+방창\n
+이 하찮은 가치\n
+사람들은 왜 모를까\n
+삶\n
+필경\n
+봄날은 간다\n\n
+
+시 제목으로 찾아보기\n
+시인 이름으로 찾아보기"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

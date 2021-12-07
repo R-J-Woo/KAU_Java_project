@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="280dp"
+            android:src="@drawable/e5"/>
+
+        <LinearLayout
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="나를 숨 쉬게 하는 보통의 언어들"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="2020/05/27"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="김이나"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="책 소개"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="이번 책 [보통의 언어들]은 김이나 작가가 그간 대중과 긴밀히 소통해온 경험을 살려 우리가 삶에서 맞부딪히는 복잡한 감정과 관계의 고민에 대한 해법을 일상의 단어 속에서 탐색한다. 그녀는 작사가로서의 예민한 안테나를 살려 우리가 자주 표현하는 감정의 단어들을 수집하고, 그 단어들이 다 품어내지 못한 마음의 풍경을 섬세하게 포착했다. 평범한 단어들 속에 깃들인 특별한 가치를 찾고 삶의 지향점을 풀어가는 김이나의 글은 쳇바퀴 같은 생활이 얼마나 소중한 것인지, 그 안에서 우리는 어떻게 확장된 인생의 의미를 발견할 수 있는지 보여준다."
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="카테고리 분류"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="시/에세이 &gt; 나라별 에세이 &gt; 한국에세이"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="목차"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prologue. 당신만의 언어를, 당신만의 세계를 바라보는 일\n
+\n
+Part 01. 관계의 언어\n
+“주파수가 맞으려면 박자를 맞춰가야 해”\n
+\n
+좋아한다. 사랑한다 : 상대방을 향한 내 감정의 속성\n
+실망 : 우린 모두 불완전한 인간\n
+미움받다 : 대충 미움받고 확실하게 사랑받을 것\n
+# 사랑하기에 좋은 사람\n
+선을 긋다 : 그 사람과 나 사이의 거리\n
+시차적응 : 각기 다른 마음의 시계\n
+사과하다 : 기다림이 필요한 시간\n
+연애의 균열 : 지난 기억이 만들어낸 의심 사이렌\n
+공감 : 통하는 마음은 디테일에서 나온다\n
+싫어하다 : 내게는 싫은 사람이 있어\n
+이해가 안 간다 : 비난을 내포하는 말\n
+속이 보인다 : 경험치에 기반한 어른만의 언어\n
+뒷담화 :　부정적 감정이 깃든 일에는 룰이 필요하다\n
+미안하다 :　털어내지 말고 심어둘 것\n
+비난 ：다정한 사람들은 말수가 적다\n
+지질하다 ：구차하면 좀 어때\n
+상처 : 서로의 아픔을 볼 수 있다면\n
+포장하다 : 주는 이의 마음이 담긴 그 무엇\n
+염치가 있다 : 내가 꼭 지키고 싶은 것\n
+재벌, 갑질, 애교 : 우리에게만 익숙한 단어\n
+소중하다 : 우린 매일 이별에 가까워지는 중\n
+# 아픈 이별로 여전히 힘들어하고 있다면\n
+\n
+Part 02. 감정의 언어\n
+“감정, 누르지 않고 자연스레 곁에 두기”\n
+\n
+부끄럽다 : 매력을 유지하는 사람들의 공통점\n
+찬란하다 : 각기 다른 기억을 끄집어내는 말\n
+슬프다. 서럽다. 서글프다 : 아프고, 괴롭고, 외로운\n
+# 마음을 방치하지 말아달라는 혼잣말\n
+묻다. 품다 : 차마 어쩌지 못해 내리는 결정\n
+위로, 아래로 : 오늘 그 감정은 어디서부터 왔을까\n
+소란스럽다 : 주변과 대비되는 그 사람만의 감정\n
+외롭다 : 오롯이 내게만 집중할 수 있는 시간\n
+싫증이 나다 : 내 사랑의 진원지를 찾을 수 있다면\n
+간지럽다 : 알다가도 모를 기괴한 행복감\n
+기억, 추억 : 다르게 적혀 있는 지난 날\n
+\n
+Part 03. 자존감의 언어\n
+“약해졌을 때는 잠깐 쉬었다 갈 것”\n
+\n
+성숙 : 애어른이 자라서 어른아이가 되는 아이러니\n
+# 나이 든다는 것\n
+꿈 : 꼭 이루지 않아도 충분히 행복한 것\n
+유난스럽다 : 그건 당신이 특별하다는 뜻\n
+호흡 : 불안감에 빠진 나를 구원하려면\n
+# 한쪽으로 치우치지 않는 사람\n
+드세다. 나대다 : 사람을 주저앉히는 말에 대해\n
+정체성 : 나의 본모습이 혼란스러울 때\n
+한계에 부딪히다 : 또 다른 가능성과 마주하는 순간\n
+겁이 많다 : 결과적으로 늘 강한 사람들\n
+이상하다 : 있는 그대로를 바라볼 수 있길\n
+살아남다 : 영원히 근사한 채로 버텨낼 순 없다\n
+창작하다 : 영감과 체력의 긴밀한 관계\n
+쳇바퀴를 굴리다 : 일상의 반복이 알려주는 특별한 하루\n
+기특하다 : 나의 존엄을 가꾸어 나가는 일\n
+\n
+Radio record : 나를 지켜주는 말\n
+Lyrics : 마음에 깃든 노랫말\n
+추천의 글"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

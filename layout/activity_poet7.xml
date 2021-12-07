@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="280dp"
+            android:src="@drawable/poet7"/>
+
+        <LinearLayout
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="가장 예쁜 생각을 너에게 주고 싶다"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="2017/06/07"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="나태주"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="책 소개"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="드라마 &lt;로맨스는 별책부록&gt; 은호와 단이가
+서로를 향한 마음을 담아 함께 읽은 시 수록
+\n\n
+tvN 화제의 드라마 &lt;로맨스는 별책부록&gt;에서 우리의 마음을 설레게 만든 은호와 단이가 읽은 시가 수록된 이 책은 풀꽃 시인 나태주가 이 세상의 모든 따뜻한 언어들 중 고르고 고른 시 문장을 담아냈다. “우리는 한 사람씩 우주 공간을 흐르는 별이다. 머언 하늘 길을 떠돌다 길을 잘못 들어 여기 이렇게 와 있는 별들이다.”라는 시인의 언어를 시작으로 “아니다. 우리는 오래 전부터 서로 그리워하고 소망했기에 여기 이렇게 한자리에서 만나게 된 별들이다.”라는 아름다운 문장을 은호와 단이의 목소리로 전했다. 서로를 바라보는 애틋한 그들의 마음이 가장 잘 담겨 있는 시는 드라마 속 감동과 여운을 고스란히 간직할 수 있다."
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="카테고리 분류"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="시/에세이 &gt; 한국시 &gt; 현대시"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="목차"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1장. 세상에 와 그대를 만난 건\n
+큰일\n
+너에게 감사\n
+별짓\n
+핸드폰시 - 구름\n
+딸\n
+까닭\n
+선물\n
+세상은\n
+들길을 걸으며\n
+풍경\n
+너 때문에\n
+행복ㆍ1\n
+행복ㆍ2\n
+네가 있어\n
+장식\n
+마음을 얻다\n
+연인\n
+딸을 위하여\n
+민애의 노래책\n
+그 아이\n
+스타가 되기 위하여\n
+우리들의 푸른 지구\n
+너를 위하여\n
+별\n
+\n
+2장. 오늘도 네가 있어 마음속 꽃밭이다\n
+소망\n
+통화\n
+꽃\n
+참말로의 사랑은\n
+맑은 날\n
+첫눈 같은\n
+카톡\n
+하루만 못 봐도\n
+딸에게ㆍ1\n
+대화\n
+유월에\n
+어여쁜 짐승\n
+딸에게ㆍ2\n
+꿈\n
+서로가 꽃\n
+행운\n
+시집가는 딸에게\n
+절값\n
+딸에게ㆍ3\n
+어린 시인에게\n
+육친\n
+딸기 철\n
+근황\n
+새해\n
+별처럼 꽃처럼\n
+\n
+3장. 기다리다가 기다리다가 그만\n
+나무\n
+외면\n
+그리움\n
+해거름 녘\n
+꽃ㆍ1\n
+사랑은 혼자서\n
+마음의 용수철\n
+태안 가는 길\n
+부탁이야\n
+문득\n
+마지막 기도\n
+기다리는 시간\n
+사랑하는 마음 내게 있어도\n
+어쩌다 이렇게\n
+이 가을에\n
+말은 그렇게 한다\n
+눈사람\n
+떠난 자리\n
+그대 떠난 자리에\n
+못나서 사랑했다\n
+사랑\n
+그 말\n
+아직도\n
+하오의 슬픔\n
+눈 위에 쓴다\n
+
+4장. 오직 한 번뿐인 여행\n
+새해 인사\n
+여행ㆍ1\n
+여름의 일\n
+한 소망\n
+외출에서 돌아와\n
+좋은 날\n
+돌멩이\n
+쑥부쟁이\n
+엄마\n
+아버지\n
+어린 슬픔\n
+너무 쉽게 만나고\n
+여행ㆍ2\n
+아름다운 짐승\n
+오월 카톡\n
+동심\n
+인생\n
+멀리 있는 너를 두고\n
+쪼끔은 보랏빛으로 물들 때\n
+능금나무 아래\n
+차\n
+아름답다\n
+눈부신 세상\n
+꽃ㆍ3\n
+민들레꽃\n
+젊은 딸들에게"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

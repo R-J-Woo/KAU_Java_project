@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="280dp"
+            android:src="@drawable/e3"/>
+
+        <LinearLayout
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="애쓰지 않고 편안하게"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="2020/05/14"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="김수현"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="책 소개"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="‘위로가 필요한 친구에게 선물해주고 싶은 책’, ‘읽고 마음이 한결 편안해졌다’라는 평가를 받으며 수많은 독자의 공감을 얻은 김수현 작가의 인간관계 에세이 『애쓰지 않고 편안하게』가 20만 부 기념으로 새 옷을 갈아입었다. 당당하게 “나로 살기로 했다”고 외치던 저자는 이 책에선 “나를 지키는 관계 맺기”를 이야기한다. 많은 이가 어려워하는 인간관계에 대해, 저자는 언제나 잠겨 있는 수도꼭지도 아무 때나 콸콸 쏟아지는 수도꼭지도 망가진 건 똑같다고 강조한다. 단호할 때와 너그러움이 필요할 때를 구분한다면, 경계와 허용치 사이에서 균형을 잡을 수 있다면, 우리는 복잡한 세상에서 좀 더 편하게 살아갈 수 있다.
+\n\n
+책에서는 어설픈 악당이나 쁘띠 또라이에게서 정확한 표현으로 나를 지키면서도 사소한 일에는 날 세우지 않는 사람이 될 수 있는 방법을 소개한다. 1장과 2장은 자존감을 지키며 나답게 사는 법, 3장과 4장은 타인과 조화롭게 지내면서도 당당하게 사는 태도, 5장과 6장은 마음을 언어로 표현하며 사랑을 배우는 과정을 담았다.
+또한 책에는 따뜻한 공감을 이끌어내는 그림, 시원한 솔루션이 담겨 밑줄을 긋고, 오랫동안 기억해두고 싶은 문장이 곳곳에 가득하다. “비슷한 주제를 다룬 다른 책들이 다큐라면 이 책은 시트콤이다. 친구와 고민을 나누듯 유쾌, 상쾌, 통쾌하게 읽을 수 있는 책!”이라는 독자들의 평처럼 『애쓰지 않고 편안하게』는 독자와 가장 친한 친구가 되고자 한다. 관계가 힘들고 불편하고 공허했다면, 이제 이 책을 통해 삶의 균형을 회복하고 나답게 편안하게 관계 맺는 법을 배워보자."
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="카테고리 분류"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="시/에세이 &gt; 나라별 에세이 &gt; 한국에세이"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="목차"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="프롤로그 균형을 찾기로 했습니다\n
+\n
+1장 휘둘리지 않고 단단하게\n
+: 자존감을 지킨다는 것\n
+행복도 인증이 되나요?\n
+재미있지 않아도 괜찮습니다\n
+로망의 개인적 취향\n
+헤이터의 기본값\n
+가볍게 넘기기의 기술\n
+아무 말 대잔치에 흔들리지 말 것\n
+제 인생은 특별하지 않지만 소중합니다\n
+신세도 좀 지고 삽시다\n
+고독은 각자의 몫\n
+\n
+2장 애쓰지 않고 편안하게\n
+: 나답게 산다는 것\n
+다른 사람이 되려 애쓰지 말 것\n
+실망시킬 용기\n
+돌아올 힘을 남겨두자\n
+인싸가 아니라도 괜찮아\n
+호의는 돼지고기까지, 이유 없는 소고기는 없다\n
+관계의 황금률\n
+내가 지치지 않을 때까지\n
+기초 믿음의 회복\n
+일상을 견딘다는 것\n
+\n
+3장 신경질 내지 않고 정중하게\n
+: 타인과 함께한다는 것\n
+쁘띠 또라이에게 관대할 것\n
+호인과 호구의 차이\n
+상대의 마음을 안다는 착각\n
+불편이 불편합니다\n
+어쨌거나 똥은 피하고 봅시다\n
+적어도 쓰리아웃은 하고 체인지합시다\n
+상대의 인격이 나의 가치는 아니다\n
+둔감함이라는 위로\n
+사과는 늦더라도 옳다\n
+손해를 최소화하는 법\n
+\n
+4장 쫄지 말고 씩씩하게\n
+: 당당하게 산다는 것\n
+나만 참으면 끝나는 일은 없어요\n
+신념도 수정이 가능합니다\n
+돈 버는 건 더럽고 치사한 일이 아니다\n
+불안 금지\n
+나부터 신경을 끕시다\n
+힘 좀 빼고 갑시다\n
+그냥 해보고 싶은 일을 그냥 해보기\n
+모든 걸 과거의 문제로 여기지는 말 것\n
+조바심 내지 않기\n
+\n
+5장 참지 말고 원활하게\n
+: 마음을 언어로 표현한다는 것\n
+무례함에도 과속 방지턱이 필요합니다\n
+그걸 꼭 말로 해야 압니다\n
+마음을 물어주세요\n
+일단 표현해야 상대의 진가를 안다\n
+나만의 분노 조절 장치를 만들 것\n
+나를 지킬 수 있는 언어\n
+표현에도 준비운동이 필요해\n
+사람은 고쳐 쓸 수 없어요\n
+억압의 이어달리기를 끝내봅시다\n
+싸움을 멈추는 방법\n
+\n
+6장 냉담해지지 말고 다정하게\n
+: 사랑을 배운다는 것\n
+번아웃 금지\n
+화해의 기술\n
+엄마의 기본값\n
+관계의 씨앗 뿌리기\n
+나에게 다정해집시다\n
+나의 빛나는 흑역사\n
+그럼에도, 살아가는 이유\n
+조금 더 따뜻하게 조금 더 차갑게\n
+다 같은 중생 아니겠습니까\n
+행복에도 노력이 필요해요\n
+\n
+에필로그 우리 사랑하며 살아요\n
+땡스 투\n
+참고한 자료들\n
+사전 독자단 한마디"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

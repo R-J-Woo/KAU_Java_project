@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="280dp"
+            android:src="@drawable/e6"/>
+
+        <LinearLayout
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="죽은 자의 집 청소"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="2020/05/30"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="김완"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="책 소개"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="누군가 홀로 죽은 집, 쓰레기가 산처럼 쌓인 집, 오물이나 동물 사체로 가득한 집…. 쉽사리 볼 수도, 치울 수 없는 곳을 청소하는 특수청소업체 ‘하드웍스’ 대표 김완의 특별한 죽음 이야기『죽은 자의 집 청소』. ‘특수’청소라는 표현에서 알 수 있듯 그의 일터엔 남다른 사연이 가득하다. 자살 직전에 분리수거를 한 사람, 자신의 세간을 청소하는 ‘비용’을 물은 뒤 자살한 사람 등. 현장 이야기를 주로 다루는 1장에는 픽션이라고 생각될 만큼 비현실적인 현실 이야기가 펼쳐지고, 2장에선 특수청소부로서 느낀 힘듦과 보람부터 직업병, 귀신에 대한 오컬트적인 이야기까지 다채로운 에피소드로 그가 하는 일을 생생히 전한다.
+\n\n
+특수청소부로 온갖 현장을 다니는 김완 작가의 시선을 천천히 따라가다 보면 고독사의 현실, 고독사의 민낯을 마주하게 된다. 노인뿐만 아니라 중년 그리고 청년에게까지 엄습하는 쓸쓸한 죽음. 세대와 성별을 가리지 않는 고독한 죽음 이야기를 하나둘 접하다보면 고정관념이 점점 깨진다. 생을 포기하기 직전까지 어떻게든 살아보려 삶의 절벽 끝에서 아등바등하던 흔적이 현장 곳곳에 남아 있다. 피와 오물, 생전 일상을 유추할 수 있는 여러 유품을 치우며 작가는 삶에 대해 사색한다. 그렇게 이 책은 ‘죽음’을 소재로 하지만 역설적이게도 ‘삶’을 이야기한다. 그래서인지 특수청소부의 현장 이야기가 마냥 무겁고 슬프지만은 않게 다가온다."
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="카테고리 분류"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="시/에세이 &gt; 나라별 에세이 &gt; 한국에세이"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="목차"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="프롤로그 문을 열고 첫 번째 스텝\n
+\n
+1장. 홀로 떠난 곳을 청소하며\n
+캠핑 라이프\n
+분리수거\n
+꽃 좋은 곳으로 가, 언니\n
+가난한 자의 죽음\n
+황금이여, 언젠가는 돌처럼\n
+오줌 페스티벌\n
+고양이 들어 올리기\n
+지옥과 천국의 문\n
+서가\n
+이불 속의 세계\n
+숨겨진 것\n
+쌍쌍바\n
+사랑하는 영민 씨에게\n
+\n
+2장. 조금은 특별한 일을 합니다\n
+특별한 직업\n
+집을 비우는 즐거움\n
+들깨\n
+흉가의 탄생\n
+당신을 살릴까, 나를 살릴까\n
+가격\n
+솥뚜껑을 바라보는 마음\n
+화장실 청소\n
+지폐처럼 새파란 얼굴로\n
+호모파베르\n
+왜소한 밤의 피아니즘\n
+\n
+에필로그"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

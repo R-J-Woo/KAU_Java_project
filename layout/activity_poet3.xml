@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="280dp"
+            android:src="@drawable/poet3"/>
+
+        <LinearLayout
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="너와 함께라면 인생도 여행이다"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="2019/12/12"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="나태주"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="책 소개"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="‘자세히 보아야 예쁘다/오래 보아야 사랑스럽다/너도 그렇다’ 단 세 구절로 수많은 독자들의 사랑을 받은 「풀꽃」의 나태주 시인이 새 시집을 낸다. 시인이 그동안 써온 시들을 엄선하여 독자들에게 건넬 만한 온전한 진심을 추려낸 결과물이다. 더구나 이번 시집은 시인의 50년 시력을 기념하는 시집이라서 더더욱 뜻깊다. 여기에 따뜻한 터치로 자연의 미묘한 색감과 생명력을 표현해오고 있는 중국 출신의 세계적인 일러스트레이터 오아물 루(Oamul Lu)의 작품이 표지 전체를 감싸며 독자들의 시선을 잡아끈다. 서정성 짙은 오아물 루의 그림은 시인의 따사롭고 아늑한 감성적인 시 세계로 독자들을 한껏 끌어당긴다.\n\n
+1971년 「서울신문」 신춘문예에 시 「대숲 아래서」가 당선되고 작품 활동을 시작했으니, 2020년은 시인이 등단한 지 햇수로 꼬박 오십 년째다. 그의 오십 년 창작 생활이 저 세 구절로 다 형용하기 힘들 정도로 길고 깊다는 것이 절실히 느껴진다. 이번 시집은 1부 신작 시 100편, 2부 독자들이 사랑하는 애송 시(대표 시) 49편, 3부 나태주 시인이 사랑하는 시 65편으로 구성됐다. 사람들의 가슴에 선명하게 새겨지는 그의 시가 이번에는 반세기의 내공을 함축하여 시와 삶을 모두 훑는 놀라운 감동을 선사한다.
+등단 오십 년에 맞춰 발간하는 시집이라서일까. 유달리 더 담백하면서도 더 농밀한 시어들이 가득하다. 나태주 시인 특유의 천진난만하고 순진무구한 목소리가 그대로 배어나는 동시에 웅숭깊은 통찰이 담겨 있다. 무엇보다 중요한 것은 사랑하는 사소한 것들에 대한 끈끈한 애정과 애착이 묻어난다는 것이다. 사랑하는 사람을 보살피고 나 자신을 돌아보게 하는 겸손한 긍정과 겸허한 감성이 그의 시 세계 곳곳에 별자리처럼 수놓아져 있다."
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="카테고리 분류"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="시/에세이 &gt; 한국시 &gt; 현대시"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="목차"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="시인의 말\n
+살아남은 자의 기적 ㆍ 4\n\n
+
+1부 -\n
+너와 함께라면 인생도 여행이다 ㆍ 15\n
+맑은 하늘 ㆍ 18\n
+그리운 사막 ㆍ 19\n
+움직이며 시 쓰기 ㆍ 21\n
+따스한 손 ㆍ 22\n
+너에게 보낸다 ㆍ 23\n
+너의 이름 ㆍ 25\n
+골목길 1 ㆍ 27\n
+강연 출근 ㆍ 28\n
+바람 ㆍ 29\n
+흐린 날 ㆍ 30\n
+추석 1 ㆍ 32\n
+추석 2 ㆍ 33\n
+분꽃 옆에 ㆍ 35\n
+오아시스 ㆍ 37\n
+고독 ㆍ 39\n
+미리, 탄자니아 ㆍ 40\n
+사랑의 방식 ㆍ 42\n
+조그만 웃음 ㆍ 43\n
+사랑 ㆍ 44\n
+살아줘서 고맙습니다 ㆍ 45\n
+태풍 소식 ㆍ 47\n
+태풍 다음 날 ㆍ 49\n
+감사 ㆍ 50\n
+침묵 ㆍ 51\n
+강변 ㆍ 52\n
+맨발 1 ㆍ 54\n
+낙엽 ㆍ 56\n
+사랑이거든 가거라 ㆍ 57\n
+떠나간 여름 ㆍ 59\n
+가을 여행 ㆍ 60\n
+주유천하 ㆍ 61\n
+코스모스 ㆍ 63\n
+가을볕 ㆍ 64\n
+아이와 작별 ㆍ 66\n
+오해 ㆍ 67\n
+화해 ㆍ 68\n
+모순 ㆍ 69\n
+맨발 2 ㆍ 70\n
+잘되었다 ㆍ 71\n
+어제의 너\n
+- 할 말이 너무 많아 말을 삼킨다 ㆍ 73\n
+기도 시간 ㆍ 74\n
+가을 안부 ㆍ 75\n
+딸 ㆍ 76\n
+너 보고 싶은 날 ㆍ 77\n
+아직도 봄 ㆍ 79\n
+봄의 사람 ㆍ 80\n
+알지요 ㆍ 81\n
+카보다로카 ㆍ 82\n
+벼랑 위의 여자 ㆍ 84\n
+새삼스레 ㆍ 86\n
+항구 ㆍ 87\n
+당신 앞에 ㆍ 89\n
+가난한 소망\n
+- 원이를 위하여 ㆍ 90\n
+시 노래 ㆍ 92\n
+가을 햇살 앞에 ㆍ 93\n
+왈칵 ㆍ 95\n
+좋아요 ㆍ 96\n
+공터 ㆍ 97\n
+사막행 ㆍ 98\n
+낡은손 ㆍ 100\n
+시 2 ㆍ 101\n
+시인 ㆍ 102\n
+가을날 ㆍ 103\n
+가을 편지 ㆍ 104\n
+가을 여행 ㆍ 105\n
+가을 축제 ㆍ 106\n
+낙엽 ㆍ 107\n
+시 3 ㆍ 108\n
+가을도 깊어 ㆍ 109\n
+가을 명령 ㆍ 110\n
+키가 큰 여자 ㆍ 111\n
+서점에서 ㆍ 113\n
+머리 조아려 ㆍ 115\n
+따로국밥 ㆍ 117\n
+사랑 ㆍ 119\n
+서가의 책들 ㆍ 120\n
+가을 어법 ㆍ 121\n
+해국 ㆍ 123\n
+모래 ㆍ 124\n
+또 11월 ㆍ 126\n
+약속 ㆍ 127\n
+눈 사진 ㆍ 128\n
+사진을 찍으며 ㆍ 129\n
+창문을 연다 ㆍ 131\n
+고마운 일 ㆍ 133\n
+인도 ㆍ 134\n
+바람이 부오 ㆍ 135\n
+노을 ㆍ 136\n
+조화 ㆍ 137\n
+골목길 2 ㆍ 139\n
+여자 ㆍ 140\n
+가을은 쓸쓸한 나에게 ㆍ 141\n
+그립다 ㆍ 142\n
+에스컬레이터 위에서 ㆍ 143\n
+지구 소식 ㆍ 145\n
+나무 어른 ㆍ 147\n
+촉감 ㆍ 149\n
+어머니의 축원 ㆍ 150\n
+하늘 구경 ㆍ 151\n\n
+
+
+2부 -\n
+좋다 ㆍ 155\n
+풀꽃 1 ㆍ 156\n
+풀꽃 2 ㆍ 157\n
+풀꽃 3 ㆍ 158\n
+오늘의 약속 ㆍ 159\n
+사랑은 언제나 서툴다 ㆍ 161\n
+섬에서 ㆍ 163\n
+첫눈 ㆍ 164\n
+너를 두고 ㆍ 165\n
+혼자서 ㆍ 167\n
+사랑에 답함 ㆍ 168\n
+눈 위에 쓴다 ㆍ 169\n
+행복 ㆍ 170\n
+꽃그늘 ㆍ 171\n
+추억 ㆍ 172\n
+바람 부는 날 ㆍ 174\n
+내가 사랑하는 계절 ㆍ 175\n
+바람에게 묻는다 ㆍ 178\n
+꽃들아 안녕 ㆍ 179\n
+그리움 ㆍ 180\n
+내가 좋아하는 사람 ㆍ 181\n
+멀리서 빈다 ㆍ 182\n
+말하고 보면 벌써 ㆍ 183\n
+별들이 대신해주고 있었다 ㆍ 184\n
+11월 ㆍ 185\n
+한 사람 건너 ㆍ 186\n
+그래도 ㆍ 187\n
+나무 1 ㆍ 188\n
+그런 사람으로 ㆍ 189\n
+떠나와서 ㆍ 190\n
+아끼지 마세요 ㆍ 191\n
+이 가을에 ㆍ 193\n
+너도 그러냐 ㆍ 194\n
+세상에 나와 나는 ㆍ 196\n
+나무에게 말을 걸다 ㆍ 198\n
+봄 ㆍ 199\n
+목련꽃 낙화 ㆍ 200\n
+서로가 꽃 ㆍ 202\n
+외롭다고 생각할 때일수록 ㆍ 203\n
+잠들기 전 기도 ㆍ 204\n
+능금나무 아래 ㆍ 205\n
+앉은뱅이 꽃 ㆍ 206\n
+들국화 2 ㆍ 207\n
+겨울행 ㆍ 209\n
+살아갈 이유 ㆍ 210\n
+돌맹이 ㆍ 211\n
+가보지 못한 골목길을 ㆍ 212\n
+지상에서의 며칠 ㆍ 214\n
+꽃 피우는 나무 ㆍ 216\n
+시 ㆍ 218\n
+묘비명 ㆍ 219\n\n
+
+
+3부 -\n
+인생 ㆍ 223\n
+여행 ㆍ 225\n
+대숲 아래서 ㆍ 226\n
+가을 서한 ㆍ 229\n
+사랑에의 권유 ㆍ 232\n
+비파나무 ㆍ 234\n
+풍경 ㆍ 235\n
+귀로 ㆍ 236\n
+꽃 ㆍ 237\n
+사랑은 비밀 ㆍ 238\n
+아버지 1 ㆍ 240\n
+대답 ㆍ 241\n
+선물 ㆍ 242\n
+마지막 기도 ㆍ 244\n
+못나서 사랑했다 ㆍ 245\n
+등불 ㆍ 247\n
+그대 지키는 나의 등불 26 ㆍ 250\n
+나뭇결 ㆍ 252\n
+사랑하는 마음 내게 있어도 ㆍ 254\n
+잠시 ㆍ 256\n
+너에게 감사 ㆍ 257\n
+여름의 일 ㆍ 259\n
+눈부신 세상 ㆍ 261\n
+별 1 ㆍ 262\n
+동심 ㆍ 263\n
+화내지 마세요 ㆍ 265\n
+과수원집 옆집 1 ㆍ 266\n
+과수원집 옆집 2 ㆍ 268\n
+혼자서 빈손으로 ㆍ 270\n
+가을 맑은 날 ㆍ 272\n
+가을 산길의 명상 ㆍ 274\n
+누워서 생각했을 때 ㆍ 276\n
+썩은 시인 ㆍ 278\n
+사십 ㆍ 280\n
+응? ㆍ 283\n
+근황 ㆍ 284\n
+그리움 ㆍ 285\n
+꽃 1 ㆍ 286\n
+문득 ㆍ 287\n
+외출에서 돌아와 ㆍ 288\n
+사랑 ㆍ 289\n
+어머니 말씀의 본을 받아 ㆍ 290\n
+마음의 주인 ㆍ 293\n
+오늘은 우선 이렇게\n
+사랑을 잃었다 하자 ㆍ 294\n
+자기를 함부로 주지 말아라 ㆍ 296\n
+들길을 걸으며 ㆍ 298\n
+어여쁜 짐승 ㆍ 300\n
+튼튼한 마음 ㆍ 302\n
+하나의 신비 ㆍ 304\n
+눈먼 사람을 위하여 ㆍ 305\n
+철부지 오월 ㆍ 306\n
+장마철에 갠 날 ㆍ 308\n
+다짐 두는 말 ㆍ 310\n
+한 소망 ㆍ 311\n
+네 앞에서 1 ㆍ 312\n
+길 1 ㆍ 313\n
+그것은 흔한 일이다 ㆍ 314\n
+꽃 3 ㆍ 316\n
+껍질 ㆍ 317\n
+대화 ㆍ 319\n
+식탁 ㆍ 320\n
+경배의 시간 ㆍ 322\n
+눈사람 ㆍ 325\n\n
+
+유언시\n
+- 아들에게 딸에게 ㆍ 326\n\n
+
+작품 해설\n
+너에게 기울어지다 나는 꽃이 되었네 - 정실비(문학평론가) ㆍ 329"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

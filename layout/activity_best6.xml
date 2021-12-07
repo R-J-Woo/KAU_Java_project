@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="280dp"
+            android:src="@drawable/best6"/>
+
+        <LinearLayout
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="존리의 부자되기 습관(20만부 기념 리커버 에디션)"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="2020/01/15"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="존 리 (지은이)"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="책 소개"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="한국인들은 세계 어느 나라보다 머리가 좋을 뿐 아니라 성실하며 더 근면하게 일한다. 2019년 통계청 발표에 의하면 미국과 일본의 근로자보다 연간 200시간을 더 일한다. 그럼에도 OECD 노인 빈곤율 세계 1위, 노인 자살률 1위의 나라이다. 왜 이렇게 되었는가? 저자는 돈에 대해 배우지 않았기 때문이라고 단언한다. 자본주의 사회에 살고 있음에도 자본이 일하게 하는 시스템을 이해하지 못하고 돈으로부터 멀어지는 삶을 살고 있기 때문이라고 말한다. 마음을 가다듬고 투자를 결심해도 무엇부터 시작해야 할지 막막한 사람들을 위해 저자는 경제독립을 위한 10단계 과정을 제시한다."
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="카테고리 분류"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="경제/경영 &gt; 재테크/금융 &gt; 재테크 &gt; 부자되는법"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="목차"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="프롤로그\n
+감사의 글\n
+서장 경제독립을 위한 버스 투어\n\n
+
+1장 부자가 되지 못하는 이유\n
+01 “대표님은 돈이 그렇게 좋으세요?”\n
+02 부자가 되지 못하는 이유 세 가지\n
+03 ‘금융문맹’은 질병이자 악성 전염병\n
+04 직업 선택 시 당신은 돈을 중요한 가치로 보는가?\n
+05 원금보장의 늪\n
+06 부동산에 대한 집착, 일본의 잃어버린 30년에서 배워라\n
+07 주식에 대한 편견\n\n
+
+2장 돈을 위해 일하지 말고 반드시 돈이 당신을 위해 일하게 해라\n
+01 은퇴 후 50년을 위한 준비\n
+02 일본의 실패를 답습하지 마라\n
+03 좁은 시야의 재테크에서 벗어나라\n
+04 자녀를 일찍부터 자본가의 길로 이끌어라\n
+05 황금알 낳는 거위를 죽이지 마라\n
+06 주식이나 주식형 펀드에 반드시 투자해라\n
+07 주식 vs. 펀드\n
+08 편견에서 벗어나라\n\n
+
+3장 경제독립을 위한 여정 10단계\n
+0단계 여정을 시작하면서\n
+1단계 자신의 자산·부채 현황표를 만들어라\n
+2단계 수입·지출 현황표를 만들어라\n
+3단계 부채를 줄여라\n
+4단계 매일 1만 원씩 여유자금을 만들어 투자해라\n
+5단계 퇴직연금제도를 활용해라\n
+6단계 연금저축펀드에는 꼭 가입해라\n
+7단계 경제독립, 온 가족이 함께해라\n
+8단계 구체적 목표를 세워라\n
+9단계 당신이 전문가임을 깨달아라\n
+10단계 항상 긍정적인 생각을 갖고 당장 시작해라\n\n
+
+에필로그"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

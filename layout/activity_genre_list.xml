@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9C27B0"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="장르소설 TOP 10"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FF3F6AB5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="center"
+                    android:text="1위"
+                    android:textColor="#FFC107"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="400dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/g1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="빌런의 경제학. 12"
+                    android:textColor="#EF9E27"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"/>
+
+                <Button
+                    android:id="@+id/ButtonGenre1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="상세정보"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:background="@drawable/gray" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FF3F6AB5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="center"
+                    android:text="2위"
+                    android:textColor="#74FFC107"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="400dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/g2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="재앙급 영웅님이 귀환하셨다. 20(완결)"
+                    android:textColor="#EF9E27"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"/>
+
+                <Button
+                    android:id="@+id/ButtonGenre2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="상세정보"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:background="@drawable/gray" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FF3F6AB5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="center"
+                    android:text="3위"
+                    android:textColor="#C14B26"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="400dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/g3" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="수라왕. 17(완결)"
+                    android:textColor="#EF9E27"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"/>
+
+                <Button
+                    android:id="@+id/ButtonGenre3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="상세정보"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:background="@drawable/gray" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FF3F6AB5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="center"
+                    android:text="4위"
+                    android:textColor="@color/white"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="400dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/g4" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="요리의 신. 32(완결)"
+                    android:textColor="#EF9E27"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"/>
+
+                <Button
+                    android:id="@+id/ButtonGenre4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="상세정보"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:background="@drawable/gray" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FF3F6AB5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="center"
+                    android:text="5위"
+                    android:textColor="@color/white"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="400dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/g5" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="회귀로 압도한다. 49"
+                    android:textColor="#EF9E27"
+                    android:textSize="28dp"
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"/>
+
+                <Button
+                    android:id="@+id/ButtonGenre5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="상세정보"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:background="@drawable/gray" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FF3F6AB5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="center"
+                    android:text="6위"
+                    android:textColor="@color/white"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="400dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/g6" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="기연무적 2부. 15(완결)"
+                    android:textColor="#EF9E27"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"/>
+
+                <Button
+                    android:id="@+id/ButtonGenre6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="상세정보"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:background="@drawable/gray" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FF3F6AB5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="center"
+                    android:text="7위"
+                    android:textColor="@color/white"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="400dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/g7" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="개과천선 배우님. 9(완결)"
+                    android:textColor="#EF9E27"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"/>
+
+                <Button
+                    android:id="@+id/ButtonGenre7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="상세정보"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:background="@drawable/gray" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FF3F6AB5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="center"
+                    android:text="8위"
+                    android:textColor="@color/white"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="400dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/g8" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="나를 갖고 노는 너. 3"
+                    android:textColor="#EF9E27"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"/>
+
+                <Button
+                    android:id="@+id/ButtonGenre8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="상세정보"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:background="@drawable/gray" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FF3F6AB5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="center"
+                    android:text="9위"
+                    android:textColor="@color/white"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="400dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/g9" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="광무제 : 광해 새로운 이름을 달다. 외전"
+                    android:textColor="#EF9E27"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"/>
+
+                <Button
+                    android:id="@+id/ButtonGenre9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="상세정보"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:background="@drawable/gray" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FF3F6AB5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="center"
+                    android:text="10위"
+                    android:textColor="@color/white"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="400dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/g10" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="가짜 용사가 너무 강함. 11(완결)"
+                    android:textColor="#EF9E27"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"/>
+
+                <Button
+                    android:id="@+id/ButtonGenre10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="상세정보"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:background="@drawable/gray" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

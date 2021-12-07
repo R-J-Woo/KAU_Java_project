@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="280dp"
+            android:src="@drawable/poet10"/>
+
+        <LinearLayout
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="이별이 오늘 만나자고 한다"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="2020/09/01"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="이병률"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="책 소개"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="문학동네시인선 145번째 시집 이병률 시인의 『이별이 오늘 만나자고 한다』. 시집 『당신은 어딘가로 가려 한다』로 우리에게 찾아와 『바람의 사생활』 『찬란』 『눈사람 여관』 『바다는 잘 있습니다』 등으로 우리를 놀라게 하는 한편, 산문집 『끌림』 『바람이 분다 당신이 좋다』 『내 옆에 있는 사람』 『혼자가 혼자에게』 로 마음을 어루만져주며 수많은 독자들에게 사랑을 받은 이병률 시인이 3년 만에 내놓는 신작 시집이다.
+\n\n
+이 시집은 슬픔이라는 감정을 가시화한 시어들로 이루어져 있다. 그러나 이별과 슬픔을 다룬 그 시어들은 결코 어둡거나 무겁지 않다. 시인은 슬픔이 가진 폭넓은 스펙트럼을 우리에게 펼쳐내 보인다. 그것은 발문을 쓴 서효인 시인의 말처럼 그가 “슬픔이 아름다울 수 있다”는 사실을 잘 알고 있는 사람이기 때문일 것이다. 어떤 감정의 이면을 발견할 수 있다는 것은 그가 그 감정을 긴 시간 들여다봤다는 뜻도 된다. 바로 그 일, 사물과 사람을 사려 깊게 살피고 오래도록 지켜보는 일, 그리하여 감정을 감각하는 일은 이병률 시인이 가장 잘하는 일이기도 하다. 그리고 그 일은 좋은 시를 쓰는 일과도 그리 다르지 않을 것이다."
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="카테고리 분류"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="시/에세이 &gt; 한국시 &gt; 현대시"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="목차"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="시인의 말\n\n
+
+1부 내가 나에게 좋은 배역을 주는 일\n
+눈물이 온다/ 슬픔이라는 구석/ 사라지자/ 겹쳐서/ 아무도 모르게/ 지나가는 바람/ 얼굴/ 나는 하루 한 번 북극 항로를 지난다/ 방향의 감각/ 한 사람이 남기는 것은, 오로라/ 서로/ 사랑/ 내 삶을 누군가 대신 꺼내 쓰고 있다/ 단추가 느슨해지다/ 오시는 마을/ 닮은 사람 하나가 어디 산다는 말이 있다
+\n\n
+2부 나무상자 하나를 구해야 한다\n
+적당한 속도, 서행/ 숨/ 사람의 금/ 끝/ 틀/ 셋이서 사는 게 좋겠다/ 경유지 방콕/ 옥탑방/ 글씨들/ 칠 일/ 꽃비/ 쓸쓸한 날에는 바람만 불어라/ 바닷가에서/ 한 장의 사람/ 다시 태어나면/ 상해식당/ 눈이 부셔라
+\n\n
+3부 당신은 나에게 아무것도 아니리라\n
+빈집 식물에 물 주는 사람/ 형은/ 새/ 나의 장례식에 가서/ 가을날/ 여행/ 눈물이 핑 도는 아주 조용한 박자/ 풀리다/ 시(詩)칼/ 자유의 언덕/ 문장/ 집/ 어떤 나이에 대한 걱정/ 의문/ 갈급에게
+\n\n
+4부 좋은 일을 가져다주는 종이\n
+달에 갈 때는 인생을 데리고 가지 말자/ 애인/ 미용사가 자른 것/ 제주 바다 문어/ 잘 쓴 글씨/ 좋은 일/ 정물/ 비밀이 없으면 우리들은 쓰러진다지/ 셔츠 주머니/ 풍경을 앓다/ 부산역/ 세상의 끝/ 실/ 그럼
+\n\n
+발문| 이별 여행 | 서효인(시인)"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

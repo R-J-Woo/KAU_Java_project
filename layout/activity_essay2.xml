@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="280dp"
+            android:src="@drawable/e2"/>
+
+        <LinearLayout
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="지쳤거나 좋아하는 게 없거나"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="2019/09/04"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="글배우"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="책 소개"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="무기력해진 마음에 다시 시작하고 싶은 의욕과 용기를 불러일으켜 주고, 잃어버린 삶의 의욕을 다시 찾을 수 있도록 도와주는 글배우의 이야기 『지쳤거나 좋아하는 게 없거나』. 무기력해진 나에게 혼자의 시간을 잘 보내며 재충전할 수 있는 방법과 내 삶에서 내가 좋아하는 것을 찾을 수 있는 방법을 말해주고, 저자가 직접 겪은 사연을 통해 잃어버린 행복을 찾아 새롭게 시작할 수 있는 용기를 준다.
+\n\n
+지쳤거나 좋아하는 게 없다면 삶은 무기력해진다. 불안함, 공허함, 외로움, 감정 기복, 자존감 등 매년 수천 명의 고민을 마주하며 상담해온 저자는 지쳤거나 내가 좋아하는 게 뭔지 몰라 공허하고 삶에 의욕이 나지 않는다면 혼자의 시간을 갖고 잃어버린 나를 찾아야 한다고 조언한다. 이 책을 통해 연애뿐만 아니라 자존감과 인간관계, 직장, 도전하고 싶은 꿈 등 그동안 쌓인 걱정들의 대한 어떻게 나아가면 좋을지 방향을 찾을 수 있도록 도와주고, 다시 시작하고 싶은 열정, 희망을 전해준다."
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="카테고리 분류"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="시/에세이 &gt; 나라별 에세이 &gt; 한국에세이"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="목차"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1부 넘어지고 일어서기를 반복하겠지만\n
+당신은 많은 것을 해낼 것입니다\n
+\n
+상처가 많은 사람\n
+힘들 때 떠올리면 좋은 3가지\n
+8개월 만에 8천만 원을 벌었던 일\n
+혼자의 시간을 잘 보내는 방법\n
+휴식\n
+오늘보다 더 나은 내일을 위하여\n
+내 마음대로\n
+마음이 외롭고 공허해지는 순간\n
+잘하는 것보다 중요한 것\n
+어려운 날\n
+스트레스를 참기만 하면\n
+불안한 이유\n
+우울함에서 벗어나기\n
+나의 꿈\n
+계속 걸어가세요\n
+젊음을 어떻게 보내면 좋을까\n
+선택\n
+여행의 필요성\n
+멀리 가기 위해\n
+가장 듣고 싶었던 말\n
+당신은\n
+항상 잘해야 된다는 생각\n
+행복이란 무엇일까\n
+그동안,\n
+\n
+2부 너무 참기만 하느라 지쳐버린 당신에게\n
+\n
+좋은 연애를 위하여\n
+타인을 내 마음대로 하려는 마음\n
+연인들이 자주 싸우는 이유\n
+내 기분에 따라\n
+내게 좋은 사람일까 아닐까\n
+자신의 일에 대한 신념\n
+불행을 자초하는 선택 3가지\n
+내가 좋아하는 것\n
+말\n
+상대방에게 자주 서운해지는 이유\n
+연애를 통해 성숙해지는 사람\n
+가장 외로운 사람\n
+감정 기복이 심하면\n
+나에게 잘 맞춰주는 사람\n
+불안한 순간\n
+모든 사랑에 끝은 있다\n
+누군가를 진심으로 사랑했던 경험은\n
+외로운 이유\n
+신경질적으로 자꾸 변해가는 이유\n
+내가 지금 행복하지 않다면\n
+자존감이 낮으면\n
+당신이 당신을 아무 가치 없게 보지 않기를\n
+사랑을 준다는 건\n
+부끄러운 일\n
+좋은 관계는\n
+잘해줄수룩\n
+오래 함께 하고 싶은 사람\n
+기대\n
+미워하다 보면\n
+사랑이 끝나면\n
+\n
+3부 내가 좋아하는 게 가장 나 다운 것\n
+\n
+나를 사랑하지 않으면\n
+자존감이 낮을수록 하기 어려운 것\n
+자존감을 높이는 두 가지 방법\n
+작가가 될 수 있었던 이유\n
+1988년 7월 17일 내가 태어났다\n
+생일\n
+사람들과 잘 못 어울리는 이유\n
+선택을 잘 못하는 사람의 특징\n
+내가 좋아하는 게 업삳면\n
+무기력해졌다면\n
+버티지 않고 도망치는 당신\n
+변하기 위해 필요한 3가지\n
+생각이 많은 당신에게\n
+생각을 정리하는 방법\n
+호낮\n
+말리지 말아주세요\n
+새로운 시간이 올 거라고\n
+말의 의도\n
+집착\n
+어떻게 살까"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

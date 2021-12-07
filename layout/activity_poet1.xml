@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="280dp"
+            android:src="@drawable/poet1"/>
+
+        <LinearLayout
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="꽃을 보듯 너를 본다"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="2020/11/30"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="나태주"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="책 소개"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="블랙핑크(BLACKPINK)의 지수와 세계적인 보컬 그룹인 방탄소년단(BTS)의 RM, 송혜교와 박보검 등은 물론 전국민의 애송시인 [풀꽃]이 수록되어있는 나태주 시집 [꽃을 보듯 너를 본다]. “자세히 보아야/ 예쁘다//오래 보아야/사랑스럽다//너도 그렇다.” 나태주 시인의 [풀꽃]은 전국민의 애송시라고 해도 과언이 아니다. 순수하고 꾸밈없는 시어들은 풀꽃의 시처럼 독자들에게 꾸준히 읽히면 더 큰 사랑을 받게 됐다. 평범한 것에 아름다움을 보는 눈, 별 볼일 없다고 생각했던 무언가를 다시보게 하는 힘이 이 시집에 있다."
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="카테고리 분류"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="시/에세이 &gt; 한국시 &gt; 현대시"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="목차"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="시인의 말 5\n\n
+
+1부\n\n
+
+내가 너를 12\n
+그 말 13\n
+좋다 14\n
+사랑에 답함 16\n
+바람 부는 날 17\n
+허방다리 18\n
+그리움 19\n
+못난이 인형 21\n
+사는 법 22\n
+날마다 기도 24\n
+한 사람 건너 26\n
+첫눈 27\n
+섬 28\n
+느낌 29\n
+서로가 꽃 30\n
+부탁이야 31\n
+꽃들아 안녕 33\n
+어여쁨 34\n
+이별 36\n
+너를 두고 37\n
+눈 위에 쓴다 38\n
+끝끝내 39\n
+황홀극치 40\n
+꽃그늘 42\n
+별 44\n\n
+
+너도 그러냐 45\n
+꽃·1 46\n
+꽃·2 48\n
+꽃·3 49\n
+혼자서 50\n
+개양귀비 51\n
+초라한 고백 53\n
+그래도 54\n
+이 가을에 55\n
+살아갈 이유 57\n
+목련꽃 낙화 58\n
+이별 59\n
+어린 봄 60\n
+나무 61\n
+멀리 62\n
+사랑은 언제나 서툴다 63\n
+떠난 자리 64\n
+멀리서 빈다 65\n\n
+
+2부\n\n
+
+내가 좋아하는 사람 68\n
+말하고 보면 벌써 69\n
+떠나야 할 때를 70\n\n
+
+행복 72\n
+풀꽃·1 74\n
+안부 76\n
+그리움 78\n
+아름다운 사람 80\n
+묘비명 81\n
+내가 사랑하는 계절 82\n
+별들이 대신해주고 있었다 84\n
+봄 85\n
+11월 86\n
+풀꽃·2 87\n
+기도 89\n
+대숲 아래서 91\n
+겨울 행 94\n
+선물 95\n
+바람에게 묻는다 97\n
+오늘도 그대는 멀리 있다 99\n
+떠나와서 101\n
+풀꽃·3 102\n
+부탁 104\n
+아끼지 마세요 106\n
+세상에 나와 나는 108\n
+꽃잎 110\n
+3월 111\n
+풀잎을 닮기 위하여 113\n\n
+
+뒷모습 115\n
+나무에게 말을 걸다 117\n
+외롭다고 생각할 때일수록 118\n
+섬에서 119\n
+다시 9월이 121\n
+주제넘게도 123\n
+그리움 124\n
+잠들기 전 기도 126\n\n
+
+
+3부\n\n
+
+눈부신 세상 128\n
+3월에 오는 눈 129\n
+12월 130\n
+사람 많은 데서 나는 131\n
+보고 싶다 132\n
+앉은뱅이꽃 133\n
+연애 135\n
+나의 사랑은 가짜였다 137\n
+사랑은 138\n
+내장산 단풍 139\n
+별후 140\n
+시 141\n
+능금나무 아래 143\n\n
+
+추억 144\n
+지상에서의 며칠 145\n
+통화 146\n
+눈 147\n
+안개 148\n
+가보지 못한 골목길을 149\n
+시장길 151\n
+그런 사람으로 152\n
+시 153\n
+돌멩이 155\n
+들길을 걸으며 156\n
+한밤중에 159\n
+사랑하는 마음 내게 있어도 160\n
+기쁨 163\n
+들국화·1 164\n
+슬픔 166\n
+들국화·2 167\n
+순이야 168\n
+꽃 피우는 나무 169\n
+제비꽃 172\n
+말을 아껴야지 173\n
+산수유꽃 진 자리 174\n
+오늘의 약속 175\n\n
+
+인터넷 시평 178\n
+책 속으로\n
+나태주/ 풀꽃1\n\n
+
+자세히 보아야\n
+예쁘다\n\n
+
+오래 보아야\n
+사랑스럽다\n\n
+
+너도 그렇다.\n\n
+
+----------------------\n\n
+
+나태주/ 풀꽃2\n\n
+
+이름을 알고 나면\n
+이웃이 되고\n\n
+
+색깔을 알고 나면\n
+친구가 되고\n\n
+
+모양까지 알고 나면\n
+연인이 된다\n\n
+
+아, 이것은 비밀.\n\n
+
+----------------------\n\n
+
+나태주/ 풀꽃3\n\n
+
+기죽지 말고 살아봐\n
+꽃 피워봐\n
+참 좋아."
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

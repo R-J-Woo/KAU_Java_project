@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="280dp"
+            android:src="@drawable/poet9"/>
+
+        <LinearLayout
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="바다는 잘 있습니다"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="2017/09/20"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="이병률"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="책 소개"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="《바람이 분다 당신이 좋다》, 《내 옆에 있는 사람》 등의 산문집을 발표하며 여행 작가로도 활동하고 있는 시인 이병률의 다섯 번째 시집 『바다는 잘 있습니다』. 온전히 혼자가 되는 일에 골몰하며 자신을 확인하고 동시에 타인을 발견해가는 뜨겁고도 명확한 인식의 순간들로 주목받았던 시집 《눈사람 여관》 이후 쓰고 발표한 60편의 시를 엮었다.
+\n\n
+설명할 수 없는 생의 절박함과 바닥없는 슬픔을 응시하는 깊고 저린 시편들로 우리 마음의 경계를 흔들어온 저자는 이번 시집에서 감각과 감정의 날을 최대치로 벼려낸 언어들로 믿음에서 비롯한 사람의 자리를 묻고 또 묻는 일, 어쩌면 사랑과 가까워지는 일에 힘을 기울인다.
+\n\n
+저자는 온전한 혼자가 되어 자주 감각이 없어질 때까지 때로는 불안을 잔뜩 껴안은 채로, 바깥을 걷고 들여다보는 일에 골몰한다. 그렇게 혼자가 된 저자가 끝내 그만두지 못한 마음속 혼잣말들은 담장을 쌓아올리듯 겹침과 포개짐을 반복하며 질문을 낳았고, 더는 혼자가 아닌 말이 되어 끝내 시로 완성되었다."
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="카테고리 분류"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="시/에세이 &gt; 한국시 &gt; 현대시"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="목차"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="시인의 말\n\n
+
+Ⅰ\n
+살림 9\n
+사람 10\n
+사람의 자리 12\n
+여행 14\n
+이구아수 폭포 가는 방법 16\n
+이토록 투박하고 묵직한 사랑 18\n
+사랑의 출처 20\n
+그 사람은 여기 없습니다 22\n
+있지 24\n
+내시경 26\n
+11월의 마지막에는 27\n
+노년 28\n
+반반 30\n
+사람의 재료 32\n
+파문 34\n
+목마들 36\n
+담장의 역사 38\n
+설산 40\n
+정착 42\n
+사람이 온다 44\n\n
+
+Ⅱ\n
+몇 번째 봄 49\n
+청춘의 기습 50\n
+마음 한편 52\n
+지구 서랍 54\n
+두 사람 56\n
+호수 58\n
+새 60\n
+밤의 골짜기는 무엇으로 채워지나 62\n
+염려 64\n
+불화덕 66\n
+미신 68\n
+가방 70\n
+시를 어떨 때 쓰느냐 물으시면 72\n
+여름은 중요하다 74\n
+소금의 중력 76\n
+수색역 78\n
+어제까지의 풍경 79\n
+고독의 작란 80\n
+왜 그렇게 말할까요 82\n
+무엇을 제일로 84\n\n
+
+Ⅲ\n
+탄생석 89\n
+인명구조 수업 90\n
+생활이라는 감정의 궤도 92\n
+동백에 새 떼가 날아와서는 94\n
+내가 쓴 것 96\n
+후계자 98\n
+사는 게 미안하고 잘못뿐인 것 같아서 100\n
+이별의 원심력 102\n
+이 넉넉한 쓸쓸함 104\n
+직면 106\n
+당신은 사라지지 말아라 108\n
+새벽의 단편 110\n
+얼음 112\n
+집게 113\n
+해변의 마지막 집 116\n
+다시 태어나거든 117\n
+횡단열차의 저편 118\n
+비를 피하려고 121\n
+좋은 배치 122\n
+착지 124\n\n
+
+발문\n
+그때는 사랑이 많은 사람이 되어 만나자 김소연 126"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>
